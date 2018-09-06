@@ -158,22 +158,20 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 * layout
 ***********************/
 div.wrapper {
-  width: 1680px;
   margin: 0 auto; }
   div.wrapper section {
-    width: 1080px;
-    margin: 0 auto; }
+    padding: 0 20px; }
     div.wrapper section div.main-title {
-      height: 293px;
+      height: 200px;
       text-align: center;
       border-bottom: 1px solid #636363; }
       div.wrapper section div.main-title h2 {
-        padding: 75px 0 20px 0;
+        padding: 53px 0 10px 0;
         font-family: 'Playfair Display', serif;
-        font-size: 60px;
+        font-size: 35px;
         color: #000; }
       div.wrapper section div.main-title p.slogan {
-        font-size: 22px;
+        font-size: 16px;
         color: #555; }
 
 /********************** 
@@ -181,184 +179,80 @@ div.wrapper {
 ***********************/
 header {
   position: relative;
-  height: 94px;
+  height: 61px;
   border-bottom: 1px solid #e5e5e5; }
   header h1 {
     position: absolute;
-    width: 87px;
-    height: 40px;
+    width: 68px;
+    height: 32px;
     background: url("../img/logo.png") 0 0 no-repeat;
-    left: 50px;
-    top: 28px;
+    background-size: 68px auto;
+    left: 20px;
+    top: 15px;
     text-indent: -9999px; }
-  header nav {
-    float: right;
-    margin: 35px 220px 0 0; }
-    header nav li {
-      float: left;
-      font-family: 'Montserrat', serif;
-      font-weight: 600;
-      font-size: 14px; }
-      header nav li a {
-        position: relative;
-        display: inline-block;
-        line-height: 28px;
-        width: 160px;
-        text-align: center;
-        color: #000;
-        border-left: 1px solid #898989; }
-        header nav li a::after {
-          content: ' ';
-          position: absolute;
-          width: 0px;
-          height: 2px;
-          background: #000;
-          left: 50%;
-          bottom: -3px;
-          margin-left: 0px;
-          transition: width 1s, margin-left 1s; }
-        header nav li a.on::after {
-          content: ' ';
-          position: absolute;
-          width: 70px;
-          height: 2px;
-          background: #000;
-          left: 50%;
-          bottom: -3px;
-          margin-left: -35px; }
-      header nav li:last-child a {
-        border-right: 1px solid #898989; }
-    header nav > a {
+  header a.zoom {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 20px;
+    right: 73px;
+    background: url("../img/icon_zoom.png") 0 0 no-repeat;
+    background-size: 22px auto;
+    text-indent: -9999px; }
+  header a.menu {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 20px;
+    top: 20px; }
+    header a.menu span.f {
       position: absolute;
-      right: 0;
-      top: 35px;
-      width: 164px;
-      height: 31px;
-      padding-top: 7px;
-      padding-right: 20px;
-      text-align: center;
-      border: solid 1px #dbdbdb;
-      border-radius: 15px;
-      color: #000;
-      font-size: 12px;
-      font-family: 'Montserrat', serif;
-      font-weight: 600;
-      background: url("../img/icon_shop_arrow.png") 140px 50% no-repeat; }
-      header nav > a span {
-        font-family: 'NanumBrunGothic', serif;
-        font-weight: 700; }
+      top: 3px;
+      width: 19px;
+      height: 2px;
+      background: #000; }
+    header a.menu span.s {
+      position: absolute;
+      bottom: 3px;
+      width: 19px;
+      height: 2px;
+      background: #000; }
 
 /********************** 
 * footer
 ***********************/
 footer {
-  height: 450px;
   border-top: 1px solid #dedede; }
-  footer .sitemap {
-    position: relative;
-    height: 313px;
-    padding: 20px 50px 0 50px; }
-    footer .sitemap > a {
-      position: absolute;
-      right: 0;
-      top: 35px;
-      width: 164px;
-      height: 31px;
-      padding-top: 7px;
-      padding-right: 20px;
-      text-align: center;
-      border: solid 1px #dbdbdb;
-      border-radius: 15px;
-      color: #000;
-      font-size: 12px;
-      font-family: 'Montserrat', serif;
-      font-weight: 600;
-      background: url("../img/icon_shop_arrow.png") 140px 50% no-repeat; }
-      footer .sitemap > a span {
-        font-family: 'NanumBrunGothic', serif;
-        font-weight: 700; }
-    footer .sitemap ul {
-      float: left;
-      width: 160px; }
-      footer .sitemap ul li {
-        padding: 3px 0; }
-        footer .sitemap ul li.f {
-          font-family: 'Montserrat', serif;
-          font-weight: 600;
-          font-size: 15px;
-          color: #000;
-          padding-bottom: 20px; }
-        footer .sitemap ul li a {
-          font-size: 14px;
-          color: #555; }
-      footer .sitemap ul.brands a {
-        font-family: 'Montserrat', serif; }
-      footer .sitemap ul.brands span.line {
-        display: block;
-        height: 1px;
-        width: 20px;
-        background: #d7d7d7; }
-      footer .sitemap ul.webzine li.s a {
-        display: inline-block;
-        padding-right: 12px;
-        background: url("../img/copyright-arrow.png") right 50% no-repeat; }
   footer .copyright {
-    position: relative;
-    height: 137px;
-    background: #0a3f54;
     font-size: 12px;
-    padding: 30px 0 0 180px;
-    line-height: 20px; }
-    footer .copyright h2 {
-      position: absolute;
-      width: 87px;
-      height: 40px;
-      background: url("../img/bottom_logo.png") 0 0 no-repeat;
-      left: 50px;
-      top: 28px;
-      text-indent: -9999px; }
+    line-height: 20px;
+    text-align: center; }
     footer .copyright div.menus {
-      float: left;
-      width: 345px; }
-      footer .copyright div.menus a {
-        display: inline-block;
-        line-height: 13px; }
-        footer .copyright div.menus a:nth-child(1) {
-          padding-right: 15px; }
-        footer .copyright div.menus a:nth-child(2) {
-          border-left: 1px solid #ccc;
-          border-right: 1px solid #ccc;
-          padding: 0 15px; }
-        footer .copyright div.menus a:nth-child(3) {
-          padding-left: 15px; }
+      padding: 20px 0; }
+      footer .copyright div.menus span.f {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000; }
+      footer .copyright div.menus p.f {
+        padding: 4px 0;
+        font-size: 14px;
+        color: #888888; }
+      footer .copyright div.menus span.s {
+        font-family: 'Montserrat', serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #000; }
     footer .copyright div.phone-time {
-      float: left;
-      width: 260px; }
-    footer .copyright div.address {
-      float: left;
-      width: 430px; }
+      padding: 20px 0 50px 0;
+      background: #0a3f54; }
+      footer .copyright div.phone-time a {
+        display: inline-block;
+        line-height: 13px;
+        padding: 0 10px; }
+      footer .copyright div.phone-time p {
+        padding-top: 20px; }
     footer .copyright a, footer .copyright p {
       color: #ccc; }
-    footer .copyright .f {
-      font-family: 'Montserrat', serif; }
-    footer .copyright ul.sns {
-      position: absolute;
-      right: 37px;
-      top: 25px; }
-      footer .copyright ul.sns li {
-        float: left; }
-        footer .copyright ul.sns li a {
-          display: inline-block;
-          width: 36px;
-          height: 36px;
-          text-indent: -9999px;
-          margin-left: 20px; }
-          footer .copyright ul.sns li a.facebook {
-            background: url("../img/facebook.png") 50% 50% no-repeat; }
-          footer .copyright ul.sns li a.insta {
-            background: url("../img/instagram.png") 50% 50% no-repeat; }
-          footer .copyright ul.sns li a.youtube {
-            background: url("../img/youtube.png") 50% 50% no-repeat; }
 
 /********************** 
 * globals
