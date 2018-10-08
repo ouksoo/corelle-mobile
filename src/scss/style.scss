@@ -33,7 +33,7 @@ div.wrapper {
                     font-size: 13px;
                     color: rgb(85,85,85);
                     width: 130px; text-align: center; height: 34px;
-                    padding-top: 9px;
+                    padding-top: 7px;
                     border: 1px solid rgb(219,219,219);
                     border-radius: 23px;
                     margin: 20px 5px 0 5px;
@@ -61,9 +61,9 @@ header {
     }   
     a.zoom {
         position: absolute;
-        width: 22px; height: 22px;
+        width: 22px; height: 23px;
         top: 20px; right: 73px;
-        background:url('../img/icon_zoom.png') 0 0 no-repeat;
+        background:url('../img/icon_lock.png') 0 0 no-repeat;
         background-size: 22px auto;
         text-indent: -9999px;
     }
@@ -86,6 +86,156 @@ header {
     }
     nav {
         
+    }
+}
+
+/**********************
+* submenu
+***********************/
+div.submenu {
+	position: fixed;
+	width: 290px; height: 100%;
+	top: 0; right: 0;
+	background: #fff;
+    z-index: 11;
+
+	span.logo {
+		position: absolute;
+        width: 68px; height: 31px;
+        background:url('../img/logo.png') 0 0 no-repeat;
+        background-size: 68px auto;
+        left: 20px; top: 15px;
+        text-indent: -9999px;
+        z-index: 11;
+	}
+	a.close-modal {
+		position: absolute;
+		right: 20px; top: 20px;
+		width: 19px; height: 19px;
+		background: url('../img/btn_close_modal.png') 0 0 no-repeat;
+		-webkit-background-size: 19px auto;
+		background-size: 19px auto;
+    }
+    div.inner {
+        padding: 0 25px;
+
+        ul.navi {
+            margin: 67px 0 23px 0;
+
+            li {
+                border-bottom: 1px solid rgb(204,204,204);
+                a {
+                    display: block;
+                    line-height: 54px;
+                    color: #000;
+                    font-family: $f-m;
+                    font-weight: 700;
+                }
+            }
+        }
+        a.shop {
+            display: block;
+            font-weight: 700;
+            font-family: $f-m;
+            font-size: 14px;
+            color: #000;
+            text-align: center;
+            padding: 15px 0px 15px 30px;
+            background: url('../img/icon_lock.png') 30px 50% no-repeat;
+            -webkit-background-size: 19px auto;
+            background-size: 19px auto;
+            border: 1px solid rgb(219,219,219);
+            margin-bottom: 20px;
+            -webkit-border-radius: 23px;
+            border-radius: 25px;
+        }
+        ul.sns {
+            li {
+                float: left; 
+                margin: 0 12px;
+
+                a {
+                    display: block;
+                    width: 51px; height: 51px;
+                    text-indent: -9999px;
+                    
+                    &.facebook {
+                        background: url('../img/facebook.png') 0 0 no-repeat;
+                        -webkit-background-size: 51px auto;
+                        background-size: 51px auto;
+                    }
+                    &.insta {
+                        background: url('../img/instagram.png') 0 0 no-repeat;
+                        -webkit-background-size: 51px auto;
+                        background-size: 51px auto;
+                    }
+                    &.youtube {
+                        background: url('../img/youtube.png') 0 0 no-repeat;
+                        -webkit-background-size: 51px auto;
+                        background-size: 51px auto;
+                    }
+                }
+                &:nth-child(2) {
+                    
+                }
+            }
+        }
+    }
+}
+
+.border {border: 1px solid red !important}
+
+div.depthmenu {
+	position: fixed;
+	width: 270px; height: 100%;
+	top: 0; right: 0;
+	background: #fff;
+    z-index: 12;
+    -webkit-box-shadow: -5px 0px 10px 1px #ddd;
+    box-shadow: -5px 0px 10px 1px #ddd;
+
+	a.home {
+        position: absolute;
+        font-size: 15px; font-family: $f-m; color: #000;
+        padding-left: 18px;
+        background:url('../img/go_home_arrow.png') 0 50% no-repeat;
+        background-size: 15px auto;
+        left: 15px; top: 20px;
+        z-index: 11;
+	}
+	a.close-modal {
+		position: absolute;
+		right: 20px; top: 20px;
+		width: 19px; height: 19px;
+		background: url('../img/btn_close_modal.png') 0 0 no-repeat;
+		-webkit-background-size: 19px auto;
+		background-size: 19px auto;
+    }
+    span.depth-1 {
+        display: block;
+        line-height: 54px; 
+        font-family: $f-m; font-weight: 700; font-size: 22px;
+        color: #000;
+        padding-left: 15px;
+        margin-top: 67px;
+        border-bottom: 1px solid rgb(119,119,119);
+    }
+    div.inner {
+        padding: 0 25px;
+
+        ul.navi {
+            margin: 0 0 23px 0;
+
+            li {
+                border-bottom: 1px solid rgb(204,204,204);
+                a {
+                    font-size: 14px;
+                    display: block;
+                    line-height: 54px;
+                    color: #000;
+                }
+            }
+        }
     }
 }
 
@@ -156,6 +306,15 @@ div.film {
         background:url('../img/icon_close_x.png') 50% 50% no-repeat;
         text-indent: -9999px;
     }
+}
+
+div.film-dark {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 10;
 }
 
 div.gallery {
@@ -296,5 +455,73 @@ a.btn-default.on {
         border: 1px solid #cacaca;
         width: 324px; text-align: center;
         margin: 35px auto 0 auto;
+    }
+}
+
+/********************** 
+* error
+***********************/
+.error-wrap {
+    height: 450px;
+    text-align: center;
+    font-family: $f-m;
+    padding-top: 120px;
+
+    p.f {
+        font-size: 30px;
+        color: #000;
+        padding-bottom: 15px;
+    }
+    p.s {
+        font-size: 16px;
+        color: rgb(85,85,85);
+    }
+    a.reload {
+        display: block;
+        width: 227px;
+        line-height: 34px;
+        font-size: 13px;
+        color: #000;
+        border: 1px solid rgb(217,217,217);
+        -webkit-border-radius: 23px;
+        border-radius: 23px;
+        margin: 25px auto 15px auto;
+    }
+}
+
+/*********************
+* term & privacy
+**********************/
+div.popup-term {
+	position: absolute;
+	z-index: 11;
+	width: 100%; min-height: 100%;
+	left: 0; top: 0;
+	background: #fff;
+	padding: 20px 20px 80px 20px;
+
+	span.s-tit {
+		display: block;
+        font-size: 30px; color: #000;
+		margin: 30px 0 22px 0;
+	}
+	p.subject {
+		font-size: 20px;
+		color: #333;
+		padding-bottom: 20px;
+		line-height: 30px;
+	}
+	div.content {
+		font-size: 14px;
+		color: rgb(102,102,102);
+		line-height: 22px;
+	}
+	a.close-modal {
+		position: absolute;
+		right: 20px; top: 20px;
+		width: 23px; height: 23px;
+		background: url('../img/btn_close_modal.png') 0 0 no-repeat;
+		-webkit-background-size: 23px auto;
+		background-size: 23px auto;
     }
 }
