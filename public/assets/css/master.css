@@ -900,6 +900,145 @@ div.popup-term {
 ***********************/
 .corelle-about {
   margin: 0 auto; }
+  .corelle-about.history div.area-1 div.image-area {
+    position: relative; }
+    .corelle-about.history div.area-1 div.image-area p.corelle {
+      position: absolute;
+      width: 180px;
+      height: 122px;
+      left: 50%;
+      top: 50%;
+      margin: -61px 0 0 -90px;
+      font-size: 17px;
+      color: #fff;
+      background: url("../img/logo.png") 50% 0 no-repeat;
+      padding-top: 100px; }
+    .corelle-about.history div.area-1 div.image-area img {
+      width: 100%; }
+  .corelle-about.history div.area-1 div.p-area {
+    text-align: center;
+    padding: 50px 0 80px 0; }
+    .corelle-about.history div.area-1 div.p-area p.sj {
+      font-size: 24px;
+      line-height: 28px;
+      color: #222222;
+      font-weight: 700;
+      padding: 0px 0 20px 0; }
+    .corelle-about.history div.area-1 div.p-area p.pj {
+      font-size: 12px;
+      line-height: 18px;
+      color: #444444; }
+  .corelle-about.history div.area-2 {
+    padding-bottom: 80px; }
+    .corelle-about.history div.area-2 div.image-area {
+      position: relative; }
+      .corelle-about.history div.area-2 div.image-area img {
+        width: 100%; }
+    .corelle-about.history div.area-2 div.p-history {
+      padding: 0 24px; }
+      .corelle-about.history div.area-2 div.p-history td {
+        width: 50%;
+        border-left: 1px solid #888888;
+        padding-left: 15px;
+        vertical-align: top; }
+        .corelle-about.history div.area-2 div.p-history td span.sub-tit {
+          font-family: "Karla", sans-serif;
+          font-size: 14px;
+          color: #222222; }
+        .corelle-about.history div.area-2 div.p-history td div.f span.s-f {
+          display: block;
+          padding-top: 15px;
+          padding-bottom: 5px;
+          font-family: "Karla", sans-serif;
+          font-size: 13px;
+          font-weight: 700;
+          color: #222222; }
+        .corelle-about.history div.area-2 div.p-history td div.f p.s-s {
+          font-size: 12px;
+          line-height: 16px;
+          color: #444444; }
+          .corelle-about.history div.area-2 div.p-history td div.f p.s-s.s {
+            margin-bottom: 8px; }
+      .corelle-about.history div.area-2 div.p-history p.p-year {
+        font-size: 20px;
+        color: #333;
+        padding: 40px 0 25px 0; }
+        .corelle-about.history div.area-2 div.p-history p.p-year span {
+          font-family: "Karla", sans-serif; }
+  .corelle-about.history div.area-3 {
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-about.history div.area-3 div.image-area {
+      position: relative; }
+      .corelle-about.history div.area-3 div.image-area img {
+        width: 100%; }
+    .corelle-about.history div.area-3 div.inner {
+      padding: 0 24px 80px 24px; }
+      .corelle-about.history div.area-3 div.inner div.tabsets {
+        padding-top: 22px;
+        text-align: center;
+        line-height: 24px;
+        overflow-x: auto;
+        width: 100%; }
+        .corelle-about.history div.area-3 div.inner div.tabsets a {
+          display: inline-block;
+          padding: 0 20px 15px 20px;
+          width: 50%;
+          font-family: "Karla", sans-serif;
+          font-size: 16px;
+          text-align: center;
+          color: #888;
+          border-bottom: 3px solid #fff; }
+          .corelle-about.history div.area-3 div.inner div.tabsets a.on {
+            color: #000;
+            font-weight: 700;
+            border-bottom: 3px solid #000; }
+      .corelle-about.history div.area-3 div.inner ul li {
+        font-family: "Karla", sans-serif;
+        font-size: 15px;
+        color: #444444;
+        text-align: center;
+        padding: 16px 0;
+        line-height: 27px;
+        font-weight: 700;
+        border-bottom: 1px solid #eeeeee; }
+        .corelle-about.history div.area-3 div.inner ul li span {
+          font-weight: 200; }
+  .corelle-about.history div.area-4 div.p-area {
+    text-align: center;
+    padding: 50px 0 50px 0; }
+    .corelle-about.history div.area-4 div.p-area p.sj {
+      font-family: "Karla", sans-serif;
+      font-size: 24px;
+      line-height: 28px;
+      color: #222222;
+      font-weight: 700;
+      padding: 0px 0 20px 0; }
+    .corelle-about.history div.area-4 div.p-area p.pj {
+      font-size: 14px;
+      line-height: 21px;
+      color: #444444; }
+  .corelle-about.history ul.awards {
+    padding: 0 24px 80px 24px; }
+    .corelle-about.history ul.awards li {
+      float: left;
+      width: 46%;
+      margin-right: 8%;
+      padding-bottom: 40px; }
+      .corelle-about.history ul.awards li:nth-child(2n) {
+        margin-right: 0; }
+      .corelle-about.history ul.awards li div.thumbs {
+        width: 150px;
+        height: 124px;
+        margin: 0 auto; }
+        .corelle-about.history ul.awards li div.thumbs img {
+          width: 100%; }
+      .corelle-about.history ul.awards li p.lst {
+        font-family: "Karla", sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        color: #555555;
+        border-top: 1px solid #cccccc;
+        padding-top: 20px; }
   .corelle-about.video-press div.tabsets {
     padding: 22px 0 0px 0;
     text-align: center;
@@ -1048,8 +1187,455 @@ div.modal-about-article {
     -webkit-background-size: 23px auto;
     background-size: 23px auto; }
 
+/********************** 
+* val
+***********************/
 .corelle-brand {
-  border: 1px solid blue; }
+  margin: 0 auto; }
+  .corelle-brand.corelle div.area-1 {
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.corelle div.area-1 div.image-area {
+      position: relative; }
+      .corelle-brand.corelle div.area-1 div.image-area div.slogan {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        margin-top: -50px; }
+        .corelle-brand.corelle div.area-1 div.image-area div.slogan span.logo {
+          display: inline-block;
+          width: 200px;
+          height: 40px;
+          background: url("../img/brand/corelle_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 180px auto;
+          background-size: 180px auto; }
+        .corelle-brand.corelle div.area-1 div.image-area div.slogan p.text {
+          font-size: 17px;
+          line-height: 22px;
+          color: #fff;
+          padding-top: 10px; }
+      .corelle-brand.corelle div.area-1 div.image-area img {
+        width: 100%; }
+    .corelle-brand.corelle div.area-1 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.corelle div.area-1 div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.corelle div.area-1 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+  .corelle-brand.corelle div.area-2 {
+    padding-bottom: 45px; }
+    .corelle-brand.corelle div.area-2 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.corelle div.area-2 div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.corelle div.area-2 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+    .corelle-brand.corelle div.area-2 ul {
+      margin: 0 10px; }
+      .corelle-brand.corelle div.area-2 ul li {
+        float: left;
+        text-align: center;
+        width: 33%; }
+        .corelle-brand.corelle div.area-2 ul li p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #444444;
+          padding-top: 8px;
+          height: 66px; }
+  .corelle-brand.corelle div.area-3 div.image-area {
+    position: relative; }
+    .corelle-brand.corelle div.area-3 div.image-area img {
+      width: 100%; }
+  .corelle-brand.corelle div.area-3 div.p-area {
+    text-align: center;
+    padding: 40px 0 50px 0;
+    margin: 0 24px;
+    border-bottom: 2px solid #cacaca; }
+    .corelle-brand.corelle div.area-3 div.p-area p.sj {
+      font-size: 24px;
+      line-height: 30px;
+      color: #000;
+      font-weight: 700;
+      padding: 5px 0 0px 0; }
+    .corelle-brand.corelle div.area-3 div.p-area p.sm {
+      font-size: 15px;
+      color: #000;
+      padding: 30px 0 30px 0;
+      line-height: 24px; }
+    .corelle-brand.corelle div.area-3 div.p-area p.pj {
+      font-size: 15px;
+      line-height: 22px;
+      color: #555555; }
+  .corelle-brand.corelle div.area-4 {
+    padding-bottom: 40px; }
+    .corelle-brand.corelle div.area-4 p.process {
+      font-size: 15px;
+      color: #000;
+      padding-top: 30px;
+      padding-bottom: 15px;
+      text-align: center; }
+    .corelle-brand.corelle div.area-4 ul {
+      width: 320px;
+      margin: 0 auto; }
+      .corelle-brand.corelle div.area-4 ul li {
+        padding: 20px 0;
+        background: url("../img/brand/line_arrow.png") 0 100% no-repeat;
+        line-height: 22px; }
+        .corelle-brand.corelle div.area-4 ul li span.f {
+          float: left;
+          width: 90px;
+          text-align: center;
+          font-size: 15px;
+          color: #555555;
+          font-weight: 600; }
+        .corelle-brand.corelle div.area-4 ul li span.s {
+          float: left;
+          font-size: 15px;
+          color: #555555; }
+        .corelle-brand.corelle div.area-4 ul li:last-child {
+          background-image: none; }
+  .corelle-brand.corelle div.area-5 {
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.corelle div.area-5 div.image-area {
+      position: relative; }
+      .corelle-brand.corelle div.area-5 div.image-area img {
+        width: 100%; }
+    .corelle-brand.corelle div.area-5 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0;
+      margin: 0 24px; }
+      .corelle-brand.corelle div.area-5 div.p-area p.sj {
+        font-size: 24px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 5px 0 0px 0; }
+      .corelle-brand.corelle div.area-5 div.p-area p.sm {
+        font-size: 15px;
+        color: #000;
+        padding: 30px 0 30px 0;
+        line-height: 24px; }
+      .corelle-brand.corelle div.area-5 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #555555; }
+      .corelle-brand.corelle div.area-5 div.p-area a.view-product {
+        display: block;
+        margin: 25px auto 25px auto;
+        border: 1px solid #dbdbdb;
+        width: 227px;
+        text-align: center;
+        font-size: 13px;
+        color: #000;
+        border-radius: 23px;
+        line-height: 34px;
+        padding-top: 3px; }
+  .corelle-brand.corelle div.area-6 div.image-area {
+    position: relative; }
+    .corelle-brand.corelle div.area-6 div.image-area img {
+      width: 100%; }
+  .corelle-brand.corelle div.area-6 div.p-area {
+    text-align: center;
+    padding: 30px 0 0px 0;
+    margin: 0 24px; }
+    .corelle-brand.corelle div.area-6 div.p-area p.sj {
+      font-family: "Karla", sans-serif;
+      font-size: 30px;
+      line-height: 36px;
+      color: #000;
+      font-weight: 700;
+      padding: 5px 0 0px 0; }
+    .corelle-brand.corelle div.area-6 div.p-area p.sm {
+      font-size: 15px;
+      color: #000;
+      padding: 15px 0 45px 0;
+      line-height: 24px; }
+    .corelle-brand.corelle div.area-6 div.p-area p.pj {
+      font-size: 15px;
+      line-height: 22px;
+      color: #555555; }
+    .corelle-brand.corelle div.area-6 div.p-area a.view-product {
+      display: block;
+      margin: 25px auto 25px auto;
+      border: 1px solid #dbdbdb;
+      width: 227px;
+      text-align: center;
+      font-size: 13px;
+      color: #000;
+      border-radius: 23px;
+      line-height: 34px;
+      padding-top: 3px; }
+  .corelle-brand.pyrex div.area-1 {
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.pyrex div.area-1 div.image-area {
+      position: relative; }
+      .corelle-brand.pyrex div.area-1 div.image-area div.slogan {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        margin-top: -65px; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo {
+          display: inline-block;
+          width: 200px;
+          height: 66px;
+          background: url("../img/brand/pyrex_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 200px auto;
+          background-size: 200px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-corning {
+          display: inline-block;
+          width: 250px;
+          height: 69px;
+          background: url("../img/brand/corning_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 200px auto;
+          background-size: 250px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-snapware {
+          display: inline-block;
+          width: 250px;
+          height: 60px;
+          background: url("../img/brand/snap_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 250px auto;
+          background-size: 250px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-chicago {
+          display: inline-block;
+          width: 124px;
+          height: 87px;
+          background: url("../img/brand/chicago_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 124px auto;
+          background-size: 124px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-visions {
+          display: inline-block;
+          width: 174px;
+          height: 40px;
+          background: url("../img/brand/vision_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 174px auto;
+          background-size: 174px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-cook {
+          display: inline-block;
+          width: 189px;
+          height: 60px;
+          background: url("../img/brand/cook_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 189px auto;
+          background-size: 189px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-oxo {
+          display: inline-block;
+          width: 164px;
+          height: 60px;
+          background: url("../img/brand/oxo_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 164px auto;
+          background-size: 164px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan p.text {
+          font-size: 17px;
+          line-height: 22px;
+          color: #fff;
+          padding-top: 10px; }
+      .corelle-brand.pyrex div.area-1 div.image-area img {
+        width: 100%; }
+    .corelle-brand.pyrex div.area-1 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.pyrex div.area-1 div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.pyrex div.area-1 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+  .corelle-brand.pyrex div.area-2 div.p-area {
+    text-align: center;
+    padding: 40px 0 50px 0; }
+    .corelle-brand.pyrex div.area-2 div.p-area p.sj {
+      font-family: "Karla", sans-serif;
+      font-size: 30px;
+      line-height: 30px;
+      color: #000;
+      font-weight: 700;
+      padding: 0px 0 20px 0; }
+    .corelle-brand.pyrex div.area-2 div.p-area p.pj {
+      font-size: 15px;
+      line-height: 22px;
+      color: #000; }
+  .corelle-brand.pyrex div.area-3 {
+    padding-bottom: 65px;
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.pyrex div.area-3 div.image-area {
+      position: relative; }
+      .corelle-brand.pyrex div.area-3 div.image-area img {
+        width: 100%; }
+    .corelle-brand.pyrex div.area-3 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0;
+      margin: 0 24px; }
+      .corelle-brand.pyrex div.area-3 div.p-area p.sj {
+        font-size: 24px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 5px 0 0px 0; }
+      .corelle-brand.pyrex div.area-3 div.p-area p.sm {
+        font-size: 15px;
+        color: #000;
+        padding: 30px 0 30px 0;
+        line-height: 24px; }
+      .corelle-brand.pyrex div.area-3 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #555555; }
+    .corelle-brand.pyrex div.area-3 ul {
+      margin: 0 10px; }
+      .corelle-brand.pyrex div.area-3 ul li {
+        float: left;
+        text-align: center;
+        width: 33%; }
+        .corelle-brand.pyrex div.area-3 ul li p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #444444;
+          padding-top: 20px;
+          height: 66px; }
+    .corelle-brand.pyrex div.area-3 ul.cut {
+      margin: 0 25px;
+      padding-bottom: 40px; }
+      .corelle-brand.pyrex div.area-3 ul.cut li {
+        float: left;
+        text-align: center;
+        width: 50%; }
+        .corelle-brand.pyrex div.area-3 ul.cut li p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #444444;
+          padding-top: 20px;
+          height: 66px; }
+    .corelle-brand.pyrex div.area-3 ul.vision {
+      margin: 0 25px;
+      padding-bottom: 40px; }
+      .corelle-brand.pyrex div.area-3 ul.vision li {
+        float: left;
+        text-align: center;
+        width: 50%;
+        padding-bottom: 10px; }
+        .corelle-brand.pyrex div.area-3 ul.vision li p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #444444;
+          padding-top: 13px;
+          height: 66px; }
+  .corelle-brand.pyrex div.story {
+    padding-bottom: 60px;
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.pyrex div.story div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.pyrex div.story div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.pyrex div.story div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+    .corelle-brand.pyrex div.story ul li {
+      padding: 0 20px 0px 20px; }
+      .corelle-brand.pyrex div.story ul li div.f {
+        float: left;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        border-right: 1px solid #818181;
+        margin-right: -1px; }
+      .corelle-brand.pyrex div.story ul li div.s {
+        float: left;
+        padding-left: 20px;
+        border-left: 1px solid #818181;
+        padding-bottom: 50px; }
+        .corelle-brand.pyrex div.story ul li div.s span.year {
+          font-family: "Karla", sans-serif;
+          font-size: 20px;
+          color: #444444; }
+        .corelle-brand.pyrex div.story ul li div.s p.subject {
+          font-size: 15px;
+          color: #000;
+          padding: 10px 0 5px 0;
+          line-height: 23px; }
+        .corelle-brand.pyrex div.story ul li div.s p.content {
+          font-size: 13px;
+          color: #444444;
+          line-height: 20px; }
+      .corelle-brand.pyrex div.story ul li:last-child div.f {
+        padding-bottom: 0; }
+      .corelle-brand.pyrex div.story ul li:last-child div.s {
+        padding-bottom: 0; }
+  .corelle-brand.pyrex div.product-detail {
+    padding-bottom: 60px; }
+    .corelle-brand.pyrex div.product-detail div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.pyrex div.product-detail div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.pyrex div.product-detail div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+    .corelle-brand.pyrex div.product-detail ul li {
+      padding-bottom: 60px; }
+      .corelle-brand.pyrex div.product-detail ul li div.s {
+        padding: 0 20px; }
+        .corelle-brand.pyrex div.product-detail ul li div.s p.subject {
+          font-size: 27px;
+          color: #444444;
+          padding: 45px 0 25px 0; }
+        .corelle-brand.pyrex div.product-detail ul li div.s p.method {
+          padding: 0px 0 40px 0; }
+        .corelle-brand.pyrex div.product-detail ul li div.s p.content {
+          font-size: 15px;
+          color: #333333;
+          line-height: 20px;
+          padding-bottom: 32px; }
+          .corelle-brand.pyrex div.product-detail ul li div.s p.content span.para {
+            display: block;
+            color: #888888;
+            font-size: 15px;
+            padding-top: 13px;
+            line-height: 22px; }
+        .corelle-brand.pyrex div.product-detail ul li div.s a.view-product {
+          display: inline-block;
+          font-weight: 700;
+          width: 135px;
+          font-size: 13px;
+          text-align: center;
+          line-height: 33px;
+          color: #333333;
+          border: 1px solid #cacaca;
+          background: url("../img/brand/btn_arrow.png") 115px 50% no-repeat;
+          -webkit-background-size: 6px 9px;
+          background-size: 6px 9px; }
 
 /********************** 
 * val
@@ -2167,6 +2753,145 @@ div.popup-term {
 ***********************/
 .corelle-about {
   margin: 0 auto; }
+  .corelle-about.history div.area-1 div.image-area {
+    position: relative; }
+    .corelle-about.history div.area-1 div.image-area p.corelle {
+      position: absolute;
+      width: 180px;
+      height: 122px;
+      left: 50%;
+      top: 50%;
+      margin: -61px 0 0 -90px;
+      font-size: 17px;
+      color: #fff;
+      background: url("../img/logo.png") 50% 0 no-repeat;
+      padding-top: 100px; }
+    .corelle-about.history div.area-1 div.image-area img {
+      width: 100%; }
+  .corelle-about.history div.area-1 div.p-area {
+    text-align: center;
+    padding: 50px 0 80px 0; }
+    .corelle-about.history div.area-1 div.p-area p.sj {
+      font-size: 24px;
+      line-height: 28px;
+      color: #222222;
+      font-weight: 700;
+      padding: 0px 0 20px 0; }
+    .corelle-about.history div.area-1 div.p-area p.pj {
+      font-size: 12px;
+      line-height: 18px;
+      color: #444444; }
+  .corelle-about.history div.area-2 {
+    padding-bottom: 80px; }
+    .corelle-about.history div.area-2 div.image-area {
+      position: relative; }
+      .corelle-about.history div.area-2 div.image-area img {
+        width: 100%; }
+    .corelle-about.history div.area-2 div.p-history {
+      padding: 0 24px; }
+      .corelle-about.history div.area-2 div.p-history td {
+        width: 50%;
+        border-left: 1px solid #888888;
+        padding-left: 15px;
+        vertical-align: top; }
+        .corelle-about.history div.area-2 div.p-history td span.sub-tit {
+          font-family: "Karla", sans-serif;
+          font-size: 14px;
+          color: #222222; }
+        .corelle-about.history div.area-2 div.p-history td div.f span.s-f {
+          display: block;
+          padding-top: 15px;
+          padding-bottom: 5px;
+          font-family: "Karla", sans-serif;
+          font-size: 13px;
+          font-weight: 700;
+          color: #222222; }
+        .corelle-about.history div.area-2 div.p-history td div.f p.s-s {
+          font-size: 12px;
+          line-height: 16px;
+          color: #444444; }
+          .corelle-about.history div.area-2 div.p-history td div.f p.s-s.s {
+            margin-bottom: 8px; }
+      .corelle-about.history div.area-2 div.p-history p.p-year {
+        font-size: 20px;
+        color: #333;
+        padding: 40px 0 25px 0; }
+        .corelle-about.history div.area-2 div.p-history p.p-year span {
+          font-family: "Karla", sans-serif; }
+  .corelle-about.history div.area-3 {
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-about.history div.area-3 div.image-area {
+      position: relative; }
+      .corelle-about.history div.area-3 div.image-area img {
+        width: 100%; }
+    .corelle-about.history div.area-3 div.inner {
+      padding: 0 24px 80px 24px; }
+      .corelle-about.history div.area-3 div.inner div.tabsets {
+        padding-top: 22px;
+        text-align: center;
+        line-height: 24px;
+        overflow-x: auto;
+        width: 100%; }
+        .corelle-about.history div.area-3 div.inner div.tabsets a {
+          display: inline-block;
+          padding: 0 20px 15px 20px;
+          width: 50%;
+          font-family: "Karla", sans-serif;
+          font-size: 16px;
+          text-align: center;
+          color: #888;
+          border-bottom: 3px solid #fff; }
+          .corelle-about.history div.area-3 div.inner div.tabsets a.on {
+            color: #000;
+            font-weight: 700;
+            border-bottom: 3px solid #000; }
+      .corelle-about.history div.area-3 div.inner ul li {
+        font-family: "Karla", sans-serif;
+        font-size: 15px;
+        color: #444444;
+        text-align: center;
+        padding: 16px 0;
+        line-height: 27px;
+        font-weight: 700;
+        border-bottom: 1px solid #eeeeee; }
+        .corelle-about.history div.area-3 div.inner ul li span {
+          font-weight: 200; }
+  .corelle-about.history div.area-4 div.p-area {
+    text-align: center;
+    padding: 50px 0 50px 0; }
+    .corelle-about.history div.area-4 div.p-area p.sj {
+      font-family: "Karla", sans-serif;
+      font-size: 24px;
+      line-height: 28px;
+      color: #222222;
+      font-weight: 700;
+      padding: 0px 0 20px 0; }
+    .corelle-about.history div.area-4 div.p-area p.pj {
+      font-size: 14px;
+      line-height: 21px;
+      color: #444444; }
+  .corelle-about.history ul.awards {
+    padding: 0 24px 80px 24px; }
+    .corelle-about.history ul.awards li {
+      float: left;
+      width: 46%;
+      margin-right: 8%;
+      padding-bottom: 40px; }
+      .corelle-about.history ul.awards li:nth-child(2n) {
+        margin-right: 0; }
+      .corelle-about.history ul.awards li div.thumbs {
+        width: 150px;
+        height: 124px;
+        margin: 0 auto; }
+        .corelle-about.history ul.awards li div.thumbs img {
+          width: 100%; }
+      .corelle-about.history ul.awards li p.lst {
+        font-family: "Karla", sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        color: #555555;
+        border-top: 1px solid #cccccc;
+        padding-top: 20px; }
   .corelle-about.video-press div.tabsets {
     padding: 22px 0 0px 0;
     text-align: center;
@@ -2315,8 +3040,455 @@ div.modal-about-article {
     -webkit-background-size: 23px auto;
     background-size: 23px auto; }
 
+/********************** 
+* val
+***********************/
 .corelle-brand {
-  border: 1px solid blue; }
+  margin: 0 auto; }
+  .corelle-brand.corelle div.area-1 {
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.corelle div.area-1 div.image-area {
+      position: relative; }
+      .corelle-brand.corelle div.area-1 div.image-area div.slogan {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        margin-top: -50px; }
+        .corelle-brand.corelle div.area-1 div.image-area div.slogan span.logo {
+          display: inline-block;
+          width: 200px;
+          height: 40px;
+          background: url("../img/brand/corelle_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 180px auto;
+          background-size: 180px auto; }
+        .corelle-brand.corelle div.area-1 div.image-area div.slogan p.text {
+          font-size: 17px;
+          line-height: 22px;
+          color: #fff;
+          padding-top: 10px; }
+      .corelle-brand.corelle div.area-1 div.image-area img {
+        width: 100%; }
+    .corelle-brand.corelle div.area-1 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.corelle div.area-1 div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.corelle div.area-1 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+  .corelle-brand.corelle div.area-2 {
+    padding-bottom: 45px; }
+    .corelle-brand.corelle div.area-2 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.corelle div.area-2 div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.corelle div.area-2 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+    .corelle-brand.corelle div.area-2 ul {
+      margin: 0 10px; }
+      .corelle-brand.corelle div.area-2 ul li {
+        float: left;
+        text-align: center;
+        width: 33%; }
+        .corelle-brand.corelle div.area-2 ul li p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #444444;
+          padding-top: 8px;
+          height: 66px; }
+  .corelle-brand.corelle div.area-3 div.image-area {
+    position: relative; }
+    .corelle-brand.corelle div.area-3 div.image-area img {
+      width: 100%; }
+  .corelle-brand.corelle div.area-3 div.p-area {
+    text-align: center;
+    padding: 40px 0 50px 0;
+    margin: 0 24px;
+    border-bottom: 2px solid #cacaca; }
+    .corelle-brand.corelle div.area-3 div.p-area p.sj {
+      font-size: 24px;
+      line-height: 30px;
+      color: #000;
+      font-weight: 700;
+      padding: 5px 0 0px 0; }
+    .corelle-brand.corelle div.area-3 div.p-area p.sm {
+      font-size: 15px;
+      color: #000;
+      padding: 30px 0 30px 0;
+      line-height: 24px; }
+    .corelle-brand.corelle div.area-3 div.p-area p.pj {
+      font-size: 15px;
+      line-height: 22px;
+      color: #555555; }
+  .corelle-brand.corelle div.area-4 {
+    padding-bottom: 40px; }
+    .corelle-brand.corelle div.area-4 p.process {
+      font-size: 15px;
+      color: #000;
+      padding-top: 30px;
+      padding-bottom: 15px;
+      text-align: center; }
+    .corelle-brand.corelle div.area-4 ul {
+      width: 320px;
+      margin: 0 auto; }
+      .corelle-brand.corelle div.area-4 ul li {
+        padding: 20px 0;
+        background: url("../img/brand/line_arrow.png") 0 100% no-repeat;
+        line-height: 22px; }
+        .corelle-brand.corelle div.area-4 ul li span.f {
+          float: left;
+          width: 90px;
+          text-align: center;
+          font-size: 15px;
+          color: #555555;
+          font-weight: 600; }
+        .corelle-brand.corelle div.area-4 ul li span.s {
+          float: left;
+          font-size: 15px;
+          color: #555555; }
+        .corelle-brand.corelle div.area-4 ul li:last-child {
+          background-image: none; }
+  .corelle-brand.corelle div.area-5 {
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.corelle div.area-5 div.image-area {
+      position: relative; }
+      .corelle-brand.corelle div.area-5 div.image-area img {
+        width: 100%; }
+    .corelle-brand.corelle div.area-5 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0;
+      margin: 0 24px; }
+      .corelle-brand.corelle div.area-5 div.p-area p.sj {
+        font-size: 24px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 5px 0 0px 0; }
+      .corelle-brand.corelle div.area-5 div.p-area p.sm {
+        font-size: 15px;
+        color: #000;
+        padding: 30px 0 30px 0;
+        line-height: 24px; }
+      .corelle-brand.corelle div.area-5 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #555555; }
+      .corelle-brand.corelle div.area-5 div.p-area a.view-product {
+        display: block;
+        margin: 25px auto 25px auto;
+        border: 1px solid #dbdbdb;
+        width: 227px;
+        text-align: center;
+        font-size: 13px;
+        color: #000;
+        border-radius: 23px;
+        line-height: 34px;
+        padding-top: 3px; }
+  .corelle-brand.corelle div.area-6 div.image-area {
+    position: relative; }
+    .corelle-brand.corelle div.area-6 div.image-area img {
+      width: 100%; }
+  .corelle-brand.corelle div.area-6 div.p-area {
+    text-align: center;
+    padding: 30px 0 0px 0;
+    margin: 0 24px; }
+    .corelle-brand.corelle div.area-6 div.p-area p.sj {
+      font-family: "Karla", sans-serif;
+      font-size: 30px;
+      line-height: 36px;
+      color: #000;
+      font-weight: 700;
+      padding: 5px 0 0px 0; }
+    .corelle-brand.corelle div.area-6 div.p-area p.sm {
+      font-size: 15px;
+      color: #000;
+      padding: 15px 0 45px 0;
+      line-height: 24px; }
+    .corelle-brand.corelle div.area-6 div.p-area p.pj {
+      font-size: 15px;
+      line-height: 22px;
+      color: #555555; }
+    .corelle-brand.corelle div.area-6 div.p-area a.view-product {
+      display: block;
+      margin: 25px auto 25px auto;
+      border: 1px solid #dbdbdb;
+      width: 227px;
+      text-align: center;
+      font-size: 13px;
+      color: #000;
+      border-radius: 23px;
+      line-height: 34px;
+      padding-top: 3px; }
+  .corelle-brand.pyrex div.area-1 {
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.pyrex div.area-1 div.image-area {
+      position: relative; }
+      .corelle-brand.pyrex div.area-1 div.image-area div.slogan {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        margin-top: -65px; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo {
+          display: inline-block;
+          width: 200px;
+          height: 66px;
+          background: url("../img/brand/pyrex_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 200px auto;
+          background-size: 200px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-corning {
+          display: inline-block;
+          width: 250px;
+          height: 69px;
+          background: url("../img/brand/corning_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 200px auto;
+          background-size: 250px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-snapware {
+          display: inline-block;
+          width: 250px;
+          height: 60px;
+          background: url("../img/brand/snap_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 250px auto;
+          background-size: 250px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-chicago {
+          display: inline-block;
+          width: 124px;
+          height: 87px;
+          background: url("../img/brand/chicago_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 124px auto;
+          background-size: 124px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-visions {
+          display: inline-block;
+          width: 174px;
+          height: 40px;
+          background: url("../img/brand/vision_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 174px auto;
+          background-size: 174px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-cook {
+          display: inline-block;
+          width: 189px;
+          height: 60px;
+          background: url("../img/brand/cook_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 189px auto;
+          background-size: 189px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan span.logo-oxo {
+          display: inline-block;
+          width: 164px;
+          height: 60px;
+          background: url("../img/brand/oxo_logo.png") 50% 50% no-repeat;
+          -webkit-background-size: 164px auto;
+          background-size: 164px auto; }
+        .corelle-brand.pyrex div.area-1 div.image-area div.slogan p.text {
+          font-size: 17px;
+          line-height: 22px;
+          color: #fff;
+          padding-top: 10px; }
+      .corelle-brand.pyrex div.area-1 div.image-area img {
+        width: 100%; }
+    .corelle-brand.pyrex div.area-1 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.pyrex div.area-1 div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.pyrex div.area-1 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+  .corelle-brand.pyrex div.area-2 div.p-area {
+    text-align: center;
+    padding: 40px 0 50px 0; }
+    .corelle-brand.pyrex div.area-2 div.p-area p.sj {
+      font-family: "Karla", sans-serif;
+      font-size: 30px;
+      line-height: 30px;
+      color: #000;
+      font-weight: 700;
+      padding: 0px 0 20px 0; }
+    .corelle-brand.pyrex div.area-2 div.p-area p.pj {
+      font-size: 15px;
+      line-height: 22px;
+      color: #000; }
+  .corelle-brand.pyrex div.area-3 {
+    padding-bottom: 65px;
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.pyrex div.area-3 div.image-area {
+      position: relative; }
+      .corelle-brand.pyrex div.area-3 div.image-area img {
+        width: 100%; }
+    .corelle-brand.pyrex div.area-3 div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0;
+      margin: 0 24px; }
+      .corelle-brand.pyrex div.area-3 div.p-area p.sj {
+        font-size: 24px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 5px 0 0px 0; }
+      .corelle-brand.pyrex div.area-3 div.p-area p.sm {
+        font-size: 15px;
+        color: #000;
+        padding: 30px 0 30px 0;
+        line-height: 24px; }
+      .corelle-brand.pyrex div.area-3 div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #555555; }
+    .corelle-brand.pyrex div.area-3 ul {
+      margin: 0 10px; }
+      .corelle-brand.pyrex div.area-3 ul li {
+        float: left;
+        text-align: center;
+        width: 33%; }
+        .corelle-brand.pyrex div.area-3 ul li p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #444444;
+          padding-top: 20px;
+          height: 66px; }
+    .corelle-brand.pyrex div.area-3 ul.cut {
+      margin: 0 25px;
+      padding-bottom: 40px; }
+      .corelle-brand.pyrex div.area-3 ul.cut li {
+        float: left;
+        text-align: center;
+        width: 50%; }
+        .corelle-brand.pyrex div.area-3 ul.cut li p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #444444;
+          padding-top: 20px;
+          height: 66px; }
+    .corelle-brand.pyrex div.area-3 ul.vision {
+      margin: 0 25px;
+      padding-bottom: 40px; }
+      .corelle-brand.pyrex div.area-3 ul.vision li {
+        float: left;
+        text-align: center;
+        width: 50%;
+        padding-bottom: 10px; }
+        .corelle-brand.pyrex div.area-3 ul.vision li p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #444444;
+          padding-top: 13px;
+          height: 66px; }
+  .corelle-brand.pyrex div.story {
+    padding-bottom: 60px;
+    border-bottom: 10px solid #f3f3f3; }
+    .corelle-brand.pyrex div.story div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.pyrex div.story div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.pyrex div.story div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+    .corelle-brand.pyrex div.story ul li {
+      padding: 0 20px 0px 20px; }
+      .corelle-brand.pyrex div.story ul li div.f {
+        float: left;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        border-right: 1px solid #818181;
+        margin-right: -1px; }
+      .corelle-brand.pyrex div.story ul li div.s {
+        float: left;
+        padding-left: 20px;
+        border-left: 1px solid #818181;
+        padding-bottom: 50px; }
+        .corelle-brand.pyrex div.story ul li div.s span.year {
+          font-family: "Karla", sans-serif;
+          font-size: 20px;
+          color: #444444; }
+        .corelle-brand.pyrex div.story ul li div.s p.subject {
+          font-size: 15px;
+          color: #000;
+          padding: 10px 0 5px 0;
+          line-height: 23px; }
+        .corelle-brand.pyrex div.story ul li div.s p.content {
+          font-size: 13px;
+          color: #444444;
+          line-height: 20px; }
+      .corelle-brand.pyrex div.story ul li:last-child div.f {
+        padding-bottom: 0; }
+      .corelle-brand.pyrex div.story ul li:last-child div.s {
+        padding-bottom: 0; }
+  .corelle-brand.pyrex div.product-detail {
+    padding-bottom: 60px; }
+    .corelle-brand.pyrex div.product-detail div.p-area {
+      text-align: center;
+      padding: 40px 0 50px 0; }
+      .corelle-brand.pyrex div.product-detail div.p-area p.sj {
+        font-family: "Karla", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        padding: 0px 0 20px 0; }
+      .corelle-brand.pyrex div.product-detail div.p-area p.pj {
+        font-size: 15px;
+        line-height: 22px;
+        color: #000; }
+    .corelle-brand.pyrex div.product-detail ul li {
+      padding-bottom: 60px; }
+      .corelle-brand.pyrex div.product-detail ul li div.s {
+        padding: 0 20px; }
+        .corelle-brand.pyrex div.product-detail ul li div.s p.subject {
+          font-size: 27px;
+          color: #444444;
+          padding: 45px 0 25px 0; }
+        .corelle-brand.pyrex div.product-detail ul li div.s p.method {
+          padding: 0px 0 40px 0; }
+        .corelle-brand.pyrex div.product-detail ul li div.s p.content {
+          font-size: 15px;
+          color: #333333;
+          line-height: 20px;
+          padding-bottom: 32px; }
+          .corelle-brand.pyrex div.product-detail ul li div.s p.content span.para {
+            display: block;
+            color: #888888;
+            font-size: 15px;
+            padding-top: 13px;
+            line-height: 22px; }
+        .corelle-brand.pyrex div.product-detail ul li div.s a.view-product {
+          display: inline-block;
+          font-weight: 700;
+          width: 135px;
+          font-size: 13px;
+          text-align: center;
+          line-height: 33px;
+          color: #333333;
+          border: 1px solid #cacaca;
+          background: url("../img/brand/btn_arrow.png") 115px 50% no-repeat;
+          -webkit-background-size: 6px 9px;
+          background-size: 6px 9px; }
 
 /********************** 
 * val
