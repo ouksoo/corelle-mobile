@@ -345,9 +345,9 @@ ul.bxslider {
   background: #fff;
   text-indent: -9999px;
   display: block;
-  width: 16px;
-  height: 16px;
-  margin: 0 10px;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
   outline: 0;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -423,7 +423,8 @@ ul.bxslider {
 * layout
 ***********************/
 div.wrapper {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 61px; }
   div.wrapper section div.main-title {
     padding: 0 20px;
     height: 200px;
@@ -454,7 +455,12 @@ div.wrapper {
 * header
 ***********************/
 header {
-  position: relative;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
   height: 61px; }
   header h1 {
     position: absolute;
@@ -465,7 +471,8 @@ header {
     left: 20px;
     top: 15px;
     text-indent: -9999px;
-    z-index: 10; }
+    z-index: 10;
+    cursor: pointer; }
   header a.zoom {
     position: absolute;
     width: 22px;
@@ -616,7 +623,8 @@ div.depthmenu {
     margin-top: 67px;
     border-bottom: 1px solid #777777; }
   div.depthmenu div.inner {
-    padding: 0 25px; }
+    padding: 0 25px;
+    overflow-y: auto; }
     div.depthmenu div.inner ul.navi {
       margin: 0 0 23px 0; }
       div.depthmenu div.inner ul.navi li {
@@ -626,6 +634,149 @@ div.depthmenu {
           display: block;
           line-height: 54px;
           color: #000; }
+      div.depthmenu div.inner ul.navi#menu-webzine li {
+        background: url("../img/webzine_arrow.png") 97% 50% no-repeat;
+        -webkit-background-size: 15px auto;
+        background-size: 15px auto; }
+
+/**********************
+* index
+***********************/
+section .index .main-image img {
+  width: 100%; }
+
+section .index .movie {
+  text-align: center;
+  padding: 16px 0 24px 0;
+  border-bottom: 1px solid #e5e5e5; }
+  section .index .movie p {
+    font-size: 15px;
+    color: #000;
+    line-height: 32px;
+    padding-bottom: 8px; }
+
+section .index .brand-story {
+  padding-top: 21px;
+  text-align: center; }
+  section .index .brand-story p.tit {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000; }
+  section .index .brand-story ul.brand {
+    margin: 0 10px;
+    padding: 13px 0 43px 0; }
+    section .index .brand-story ul.brand li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      padding-bottom: 15px; }
+      section .index .brand-story ul.brand li img {
+        width: 82px; }
+
+section .index .products {
+  text-align: center;
+  padding: 0 0 65px 0;
+  border-bottom: 1px solid #e5e5e5; }
+  section .index .products p.tit {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000;
+    padding-top: 23px;
+    font-weight: 700; }
+    section .index .products p.tit.m {
+      font-family: "Karla", sans-serif; }
+  section .index .products p.cont {
+    font-size: 15px;
+    line-height: 24px;
+    color: #888888;
+    padding: 6px 0; }
+  section .index .products p.address {
+    font-size: 14px;
+    padding: 7px 0 15px 0;
+    border-bottom: 1px solid #dfdfdf; }
+    section .index .products p.address span.f {
+      line-height: 32px;
+      color: #55555f; }
+    section .index .products p.address span.s {
+      color: #888888; }
+  section .index .products ul.sns {
+    width: 230px;
+    margin: 0 auto;
+    padding-top: 28px; }
+    section .index .products ul.sns li {
+      float: left;
+      width: 33%;
+      margin: 0 auto; }
+      section .index .products ul.sns li img {
+        width: 50px; }
+
+section .index ul.sitemap li {
+  float: left;
+  width: 50%;
+  background: #686868;
+  border-bottom: 1px solid #878787;
+  border-right: 1px solid #878787; }
+  section .index ul.sitemap li:nth-child(2) {
+    border-right: 0; }
+  section .index ul.sitemap li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    line-height: 32px;
+    padding: 17px 0;
+    background: #686868;
+    text-align: center; }
+
+section .index a.links {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #dbdbdb;
+  width: 227px;
+  text-align: center;
+  font-size: 13px;
+  color: #000;
+  border-radius: 23px;
+  line-height: 34px;
+  padding-top: 0px; }
+  section .index a.links.two {
+    display: inline-block;
+    width: 120px;
+    margin: 0 3px; }
+  section .index a.links.p {
+    margin-bottom: 7px; }
+
+section .index a.go-shop {
+  display: block;
+  margin: 20px auto 100px auto;
+  border: 1px solid #dbdbdb;
+  width: 314px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  border-radius: 23px;
+  line-height: 47px;
+  padding-top: 0px;
+  padding-left: 50px;
+  background: url("../img/icon_lock.png") 82px 50% no-repeat;
+  -webkit-background-size: 18px auto;
+  background-size: 18px auto; }
+
+a.go-top {
+  position: fixed;
+  width: 57px;
+  height: 57px;
+  background: url("../img/go_top.png") 0 0 no-repeat;
+  -webkit-background-size: 57px auto;
+  background-size: 57px auto;
+  text-indent: -9999px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 3; }
 
 /********************** 
 * footer
@@ -757,7 +908,9 @@ input[type="radio"].default + label span {
   cursor: pointer; }
 
 input[type="radio"].default:checked + label span {
-  background: url("../img/icon_radio_on.png") 50% 50% no-repeat; }
+  background: url("../img/icon_radio_on.png") 50% 50% no-repeat;
+  -webkit-background-size: 24px auto;
+  background-size: 24px auto; }
 
 input[type="checkbox"].default {
   display: none; }
@@ -774,7 +927,9 @@ input[type="checkbox"].default + label span {
   cursor: pointer; }
 
 input[type="checkbox"].default:checked + label span {
-  background: url("../img/icon_checkbox_on.png") 50% 50% no-repeat; }
+  background: url("../img/icon_checkbox_on.png") 50% 50% no-repeat;
+  -webkit-background-size: 21px auto;
+  background-size: 21px auto; }
 
 /********************** 
 * btn setting
@@ -871,6 +1026,8 @@ div.popup-term {
   top: 0;
   background: #fff;
   padding: 20px 20px 80px 20px; }
+  div.popup-term#email-policy {
+    position: fixed; }
   div.popup-term span.s-tit {
     display: block;
     font-size: 30px;
@@ -1877,7 +2034,8 @@ div.modal-about-article {
     .corelle-support.asking div.btn-area a {
       display: inline-block;
       width: 50%;
-      margin: 0; }
+      margin: 0;
+      height: 40px; }
   .corelle-support.caution div.tabsets {
     padding: 22px 50% 0px 0;
     text-align: center;
@@ -1895,7 +2053,6 @@ div.modal-about-article {
       border-bottom: 3px solid #fff; }
       .corelle-support.caution div.tabsets a.on {
         color: #000;
-        font-weight: 700;
         border-bottom: 3px solid #000; }
   .corelle-support.caution .container {
     border-top: 10px solid #f3f3f3;
@@ -1943,7 +2100,6 @@ div.modal-about-article {
       border-bottom: 3px solid #fff; }
       .corelle-support.faq div.tabsets a.on {
         color: #000;
-        font-weight: 700;
         border-bottom: 3px solid #000; }
   .corelle-support.faq .container {
     border-top: 10px solid #f3f3f3;
@@ -1972,7 +2128,9 @@ div.modal-about-article {
           background-size: 16px auto;
           line-height: 20px; }
           .corelle-support.faq .container ul.questions li a.question-link.on {
-            background: url("../img/support/arrow-up.png") 97% 50% no-repeat; }
+            background: url("../img/support/arrow-up.png") 97% 50% no-repeat;
+            -webkit-background-size: 16px auto;
+            background-size: 16px auto; }
           .corelle-support.faq .container ul.questions li a.question-link span.q {
             float: left;
             width: 14%;
@@ -2019,7 +2177,6 @@ div.modal-about-article {
       padding-bottom: 15px; }
       .corelle-support.store div.tabsets a.on {
         color: #000;
-        font-weight: 700;
         border-bottom: 3px solid #000; }
   .corelle-support.store div.container div.map-inner {
     width: 100%;
@@ -2276,7 +2433,8 @@ div.store-search {
 * layout
 ***********************/
 div.wrapper {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 61px; }
   div.wrapper section div.main-title {
     padding: 0 20px;
     height: 200px;
@@ -2307,7 +2465,12 @@ div.wrapper {
 * header
 ***********************/
 header {
-  position: relative;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
   height: 61px; }
   header h1 {
     position: absolute;
@@ -2318,7 +2481,8 @@ header {
     left: 20px;
     top: 15px;
     text-indent: -9999px;
-    z-index: 10; }
+    z-index: 10;
+    cursor: pointer; }
   header a.zoom {
     position: absolute;
     width: 22px;
@@ -2469,7 +2633,8 @@ div.depthmenu {
     margin-top: 67px;
     border-bottom: 1px solid #777777; }
   div.depthmenu div.inner {
-    padding: 0 25px; }
+    padding: 0 25px;
+    overflow-y: auto; }
     div.depthmenu div.inner ul.navi {
       margin: 0 0 23px 0; }
       div.depthmenu div.inner ul.navi li {
@@ -2479,6 +2644,149 @@ div.depthmenu {
           display: block;
           line-height: 54px;
           color: #000; }
+      div.depthmenu div.inner ul.navi#menu-webzine li {
+        background: url("../img/webzine_arrow.png") 97% 50% no-repeat;
+        -webkit-background-size: 15px auto;
+        background-size: 15px auto; }
+
+/**********************
+* index
+***********************/
+section .index .main-image img {
+  width: 100%; }
+
+section .index .movie {
+  text-align: center;
+  padding: 16px 0 24px 0;
+  border-bottom: 1px solid #e5e5e5; }
+  section .index .movie p {
+    font-size: 15px;
+    color: #000;
+    line-height: 32px;
+    padding-bottom: 8px; }
+
+section .index .brand-story {
+  padding-top: 21px;
+  text-align: center; }
+  section .index .brand-story p.tit {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000; }
+  section .index .brand-story ul.brand {
+    margin: 0 10px;
+    padding: 13px 0 43px 0; }
+    section .index .brand-story ul.brand li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      padding-bottom: 15px; }
+      section .index .brand-story ul.brand li img {
+        width: 82px; }
+
+section .index .products {
+  text-align: center;
+  padding: 0 0 65px 0;
+  border-bottom: 1px solid #e5e5e5; }
+  section .index .products p.tit {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000;
+    padding-top: 23px;
+    font-weight: 700; }
+    section .index .products p.tit.m {
+      font-family: "Karla", sans-serif; }
+  section .index .products p.cont {
+    font-size: 15px;
+    line-height: 24px;
+    color: #888888;
+    padding: 6px 0; }
+  section .index .products p.address {
+    font-size: 14px;
+    padding: 7px 0 15px 0;
+    border-bottom: 1px solid #dfdfdf; }
+    section .index .products p.address span.f {
+      line-height: 32px;
+      color: #55555f; }
+    section .index .products p.address span.s {
+      color: #888888; }
+  section .index .products ul.sns {
+    width: 230px;
+    margin: 0 auto;
+    padding-top: 28px; }
+    section .index .products ul.sns li {
+      float: left;
+      width: 33%;
+      margin: 0 auto; }
+      section .index .products ul.sns li img {
+        width: 50px; }
+
+section .index ul.sitemap li {
+  float: left;
+  width: 50%;
+  background: #686868;
+  border-bottom: 1px solid #878787;
+  border-right: 1px solid #878787; }
+  section .index ul.sitemap li:nth-child(2) {
+    border-right: 0; }
+  section .index ul.sitemap li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    line-height: 32px;
+    padding: 17px 0;
+    background: #686868;
+    text-align: center; }
+
+section .index a.links {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #dbdbdb;
+  width: 227px;
+  text-align: center;
+  font-size: 13px;
+  color: #000;
+  border-radius: 23px;
+  line-height: 34px;
+  padding-top: 0px; }
+  section .index a.links.two {
+    display: inline-block;
+    width: 120px;
+    margin: 0 3px; }
+  section .index a.links.p {
+    margin-bottom: 7px; }
+
+section .index a.go-shop {
+  display: block;
+  margin: 20px auto 100px auto;
+  border: 1px solid #dbdbdb;
+  width: 314px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  border-radius: 23px;
+  line-height: 47px;
+  padding-top: 0px;
+  padding-left: 50px;
+  background: url("../img/icon_lock.png") 82px 50% no-repeat;
+  -webkit-background-size: 18px auto;
+  background-size: 18px auto; }
+
+a.go-top {
+  position: fixed;
+  width: 57px;
+  height: 57px;
+  background: url("../img/go_top.png") 0 0 no-repeat;
+  -webkit-background-size: 57px auto;
+  background-size: 57px auto;
+  text-indent: -9999px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 3; }
 
 /********************** 
 * footer
@@ -2610,7 +2918,9 @@ input[type="radio"].default + label span {
   cursor: pointer; }
 
 input[type="radio"].default:checked + label span {
-  background: url("../img/icon_radio_on.png") 50% 50% no-repeat; }
+  background: url("../img/icon_radio_on.png") 50% 50% no-repeat;
+  -webkit-background-size: 24px auto;
+  background-size: 24px auto; }
 
 input[type="checkbox"].default {
   display: none; }
@@ -2627,7 +2937,9 @@ input[type="checkbox"].default + label span {
   cursor: pointer; }
 
 input[type="checkbox"].default:checked + label span {
-  background: url("../img/icon_checkbox_on.png") 50% 50% no-repeat; }
+  background: url("../img/icon_checkbox_on.png") 50% 50% no-repeat;
+  -webkit-background-size: 21px auto;
+  background-size: 21px auto; }
 
 /********************** 
 * btn setting
@@ -2724,6 +3036,8 @@ div.popup-term {
   top: 0;
   background: #fff;
   padding: 20px 20px 80px 20px; }
+  div.popup-term#email-policy {
+    position: fixed; }
   div.popup-term span.s-tit {
     display: block;
     font-size: 30px;
@@ -3730,7 +4044,8 @@ div.modal-about-article {
     .corelle-support.asking div.btn-area a {
       display: inline-block;
       width: 50%;
-      margin: 0; }
+      margin: 0;
+      height: 40px; }
   .corelle-support.caution div.tabsets {
     padding: 22px 50% 0px 0;
     text-align: center;
@@ -3748,7 +4063,6 @@ div.modal-about-article {
       border-bottom: 3px solid #fff; }
       .corelle-support.caution div.tabsets a.on {
         color: #000;
-        font-weight: 700;
         border-bottom: 3px solid #000; }
   .corelle-support.caution .container {
     border-top: 10px solid #f3f3f3;
@@ -3796,7 +4110,6 @@ div.modal-about-article {
       border-bottom: 3px solid #fff; }
       .corelle-support.faq div.tabsets a.on {
         color: #000;
-        font-weight: 700;
         border-bottom: 3px solid #000; }
   .corelle-support.faq .container {
     border-top: 10px solid #f3f3f3;
@@ -3825,7 +4138,9 @@ div.modal-about-article {
           background-size: 16px auto;
           line-height: 20px; }
           .corelle-support.faq .container ul.questions li a.question-link.on {
-            background: url("../img/support/arrow-up.png") 97% 50% no-repeat; }
+            background: url("../img/support/arrow-up.png") 97% 50% no-repeat;
+            -webkit-background-size: 16px auto;
+            background-size: 16px auto; }
           .corelle-support.faq .container ul.questions li a.question-link span.q {
             float: left;
             width: 14%;
@@ -3872,7 +4187,6 @@ div.modal-about-article {
       padding-bottom: 15px; }
       .corelle-support.store div.tabsets a.on {
         color: #000;
-        font-weight: 700;
         border-bottom: 3px solid #000; }
   .corelle-support.store div.container div.map-inner {
     width: 100%;

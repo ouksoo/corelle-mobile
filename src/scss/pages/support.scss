@@ -46,6 +46,7 @@ $f-n : 'NanumBrunGothic', serif;
 				display: inline-block;
 				width: 50%;
 				margin: 0;
+				height: 40px;
 			}
 		}
 	}
@@ -74,7 +75,6 @@ $f-n : 'NanumBrunGothic', serif;
 
                 &.on {
 					color: #000;
-					font-weight: 700;
                     border-bottom: 3px solid #000;
                 }
             }
@@ -152,7 +152,7 @@ $f-n : 'NanumBrunGothic', serif;
 
                 &.on {
 					color: #000;
-					font-weight: 700;
+					// font-weight: 700;
                     border-bottom: 3px solid #000;
                 }
             }
@@ -191,6 +191,8 @@ $f-n : 'NanumBrunGothic', serif;
 	
 						&.on {
 							background:url('../img/support/arrow-up.png') 97% 50% no-repeat;
+							-webkit-background-size: 16px auto;
+							background-size: 16px auto;
 						}
 						span.q {
 							float: left;
@@ -256,7 +258,7 @@ $f-n : 'NanumBrunGothic', serif;
 
                 &.on {
 					color: #000;
-					font-weight: 700;
+					// font-weight: 700;
                     border-bottom: 3px solid #000;
                 }
             }
