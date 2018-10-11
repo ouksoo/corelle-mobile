@@ -2429,7 +2429,7 @@ div.search-area {
         font-weight: 600; }
 
 div.store-search {
-  position: absolute;
+  position: fixed;
   width: 290px;
   height: 100%;
   top: 0;
@@ -4513,7 +4513,7 @@ div.search-area {
         font-weight: 600; }
 
 div.store-search {
-  position: absolute;
+  position: fixed;
   width: 290px;
   height: 100%;
   top: 0;
