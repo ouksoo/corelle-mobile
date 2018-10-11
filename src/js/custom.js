@@ -135,21 +135,43 @@ let CORE = {
             $('.depthmenu').fadeOut('fast');
         });
         $('.film-dark, .submenu a.close-modal, .depthmenu a.close-modal').on('click', function(){
-            $('.submenu, .depthmenu, .film-dark').fadeOut('fast');
+            $('.submenu, .depthmenu, .store-search, .film-dark').fadeOut('fast');
         });
 
         //copyright
         $('.copyright .phone-time a:nth-child(2)').on('click', function(){ //이용약관
-            $('#use-term').fadeIn('fast'); 
+            $('#use-term, .film-dark').fadeIn('fast'); 
         });
         $('.copyright .phone-time a:nth-child(3)').on('click', function(){ //이메일 정책
-            $('#email-policy').fadeIn('fast'); 
+            $('#email-policy, .film-dark').fadeIn('fast'); 
         });
         $('div.popup-term a.close-modal').on('click', function(){
-            $('#use-term, #email-policy').fadeOut('fast'); 
+            $('#use-term, #email-policy, .film-dark').fadeOut('fast'); 
         });
         $('h1').on('click', function(){
             location.href = '/';
+        });
+
+        // about
+        $('.video-press a.play-video').on('click', function(){
+            $('.modal-about-video').fadeIn('fast');
+        });
+        $('.video-press a.play-article').on('click', function(){
+            $('.modal-about-article').fadeIn('fast');
+        }); 
+        $('.modal-about-video a.close-modal, .modal-about-article a.close-modal').on('click', function(){
+            $('.modal-about-video, .modal-about-article').fadeOut('fast');
+        }); 
+
+        // store
+        $('a.find-store').on('click', function(){
+            $('.store-search, .film-dark').fadeIn();
+        });
+        $('a.find-channel').on('click', function(){
+            $('.popup-channel, .film-dark').fadeIn();
+        });
+        $('.store-search a.close-modal, .popup-channel a.close').on('click', function(){
+            $('.store-search, .popup-channel, .film-dark').fadeOut();
         });
     },
 

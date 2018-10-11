@@ -1218,7 +1218,9 @@ div.popup-term {
       border-bottom: 1px solid #cacaca;
       background: #fff; }
       .corelle-about.video-press ul li div.thumb {
-        position: relative; }
+        position: relative;
+        height: 200px;
+        overflow: hidden; }
         .corelle-about.video-press ul li div.thumb a.play-btn {
           position: absolute;
           right: 20px;
@@ -1832,6 +1834,10 @@ div.modal-about-article {
     .corelle-news.news ul li {
       border-bottom: 1px solid #cacaca;
       background: #fff; }
+      .corelle-news.news ul li div.thumb {
+        position: relative;
+        height: 200px;
+        overflow: hidden; }
       .corelle-news.news ul li p.subject {
         font-size: 15px;
         color: #333;
@@ -1887,18 +1893,22 @@ div.modal-about-article {
 ***********************/
 .corelle-product div.product-tab ul.company {
   margin: 0 auto;
-  border-bottom: 10px solid #f3f3f3; }
+  border-bottom: 10px solid #f3f3f3;
+  border-top: 1px solid #dcdcdc; }
   .corelle-product div.product-tab ul.company li {
     position: relative;
     float: left;
     width: 25%;
     height: 89px;
-    border: 1px solid #dcdcdc; }
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc; }
+    .corelle-product div.product-tab ul.company li:nth-child(4n) {
+      border-right: 0; }
     .corelle-product div.product-tab ul.company li:last-child {
       background: #f7f7f7; }
     .corelle-product div.product-tab ul.company li a {
       position: absolute;
-      width: 101%;
+      width: 100%;
       height: 89px;
       text-indent: -9999px;
       left: 0;
@@ -1907,7 +1917,8 @@ div.modal-about-article {
       left: 0px;
       top: 0px;
       border: 2px solid #000;
-      z-index: 1; }
+      z-index: 1;
+      margin: -1px 0 0 0px; }
     .corelle-product div.product-tab ul.company li.p-1 {
       background: url("../img/product/tab_logo_1_off.png") 50% 50% no-repeat;
       -webkit-background-size: 110px auto;
@@ -1991,10 +2002,13 @@ div.modal-about-article {
       border-bottom: 3px solid #000; }
 
 .corelle-product div.product-lists ul {
+  width: 333px;
+  margin: 0 auto;
   padding-bottom: 200px; }
   .corelle-product div.product-lists ul li {
     float: left;
-    margin: 20px 8px 0 8px;
+    width: 105px;
+    margin: 20px 3px 0 3px;
     text-align: center; }
     .corelle-product div.product-lists ul li img {
       width: 105px;
@@ -2089,8 +2103,9 @@ div.modal-about-article {
         .corelle-support.caution .container ul li .caution-table td {
           color: #333;
           font-size: 13px;
-          padding: 0px 15px 0px 0;
-          line-height: 18px; }
+          padding: 20px 15px 0px 0;
+          line-height: 18px;
+          vertical-align: top; }
           .corelle-support.caution .container ul li .caution-table td span.table-title {
             font-weight: 600; }
         .corelle-support.caution .container ul li:last-child {
@@ -2219,7 +2234,18 @@ div.popup-channel {
   background: #fff;
   top: 0;
   left: 0;
-  padding: 0 20px; }
+  padding: 0 20px;
+  z-index: 11; }
+  div.popup-channel span.logo {
+    position: absolute;
+    width: 68px;
+    height: 31px;
+    background: url("../img/logo.png") 0 0 no-repeat;
+    background-size: 68px auto;
+    left: 20px;
+    top: 15px;
+    text-indent: -9999px;
+    z-index: 11; }
   div.popup-channel a.close {
     position: absolute;
     top: 22px;
@@ -2262,41 +2288,77 @@ div.popup-channel {
         left: 0;
         top: 0; }
         div.popup-channel ul li a.store1 {
-          background: url("../img/support/store_1_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_1_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store2 {
-          background: url("../img/support/store_2_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_2_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store3 {
-          background: url("../img/support/store_3_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_3_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store4 {
-          background: url("../img/support/store_4_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_4_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store5 {
-          background: url("../img/support/store_5_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_5_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store6 {
-          background: url("../img/support/store_6_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_6_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store7 {
-          background: url("../img/support/store_7_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_7_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store8 {
-          background: url("../img/support/store_8_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_8_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store9 {
-          background: url("../img/support/store_9_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_9_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store10 {
-          background: url("../img/support/store_10_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_10_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store11 {
-          background: url("../img/support/store_11_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_11_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store12 {
-          background: url("../img/support/store_12_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_12_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store13 {
-          background: url("../img/support/store_13_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_13_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store14 {
-          background: url("../img/support/store_14_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_14_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store15 {
-          background: url("../img/support/store_15_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_15_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store16 {
-          background: url("../img/support/store_16_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_16_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store17 {
-          background: url("../img/support/store_17_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_17_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store18 {
-          background: url("../img/support/store_18_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_18_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
 
 div.search-area {
   width: 1620px;
@@ -2367,7 +2429,7 @@ div.search-area {
         font-weight: 600; }
 
 div.store-search {
-  position: fixed;
+  position: absolute;
   width: 290px;
   height: 100%;
   top: 0;
@@ -3240,7 +3302,9 @@ div.popup-term {
       border-bottom: 1px solid #cacaca;
       background: #fff; }
       .corelle-about.video-press ul li div.thumb {
-        position: relative; }
+        position: relative;
+        height: 200px;
+        overflow: hidden; }
         .corelle-about.video-press ul li div.thumb a.play-btn {
           position: absolute;
           right: 20px;
@@ -3854,6 +3918,10 @@ div.modal-about-article {
     .corelle-news.news ul li {
       border-bottom: 1px solid #cacaca;
       background: #fff; }
+      .corelle-news.news ul li div.thumb {
+        position: relative;
+        height: 200px;
+        overflow: hidden; }
       .corelle-news.news ul li p.subject {
         font-size: 15px;
         color: #333;
@@ -3909,18 +3977,22 @@ div.modal-about-article {
 ***********************/
 .corelle-product div.product-tab ul.company {
   margin: 0 auto;
-  border-bottom: 10px solid #f3f3f3; }
+  border-bottom: 10px solid #f3f3f3;
+  border-top: 1px solid #dcdcdc; }
   .corelle-product div.product-tab ul.company li {
     position: relative;
     float: left;
     width: 25%;
     height: 89px;
-    border: 1px solid #dcdcdc; }
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc; }
+    .corelle-product div.product-tab ul.company li:nth-child(4n) {
+      border-right: 0; }
     .corelle-product div.product-tab ul.company li:last-child {
       background: #f7f7f7; }
     .corelle-product div.product-tab ul.company li a {
       position: absolute;
-      width: 101%;
+      width: 100%;
       height: 89px;
       text-indent: -9999px;
       left: 0;
@@ -3929,7 +4001,8 @@ div.modal-about-article {
       left: 0px;
       top: 0px;
       border: 2px solid #000;
-      z-index: 1; }
+      z-index: 1;
+      margin: -1px 0 0 0px; }
     .corelle-product div.product-tab ul.company li.p-1 {
       background: url("../img/product/tab_logo_1_off.png") 50% 50% no-repeat;
       -webkit-background-size: 110px auto;
@@ -4013,10 +4086,13 @@ div.modal-about-article {
       border-bottom: 3px solid #000; }
 
 .corelle-product div.product-lists ul {
+  width: 333px;
+  margin: 0 auto;
   padding-bottom: 200px; }
   .corelle-product div.product-lists ul li {
     float: left;
-    margin: 20px 8px 0 8px;
+    width: 105px;
+    margin: 20px 3px 0 3px;
     text-align: center; }
     .corelle-product div.product-lists ul li img {
       width: 105px;
@@ -4111,8 +4187,9 @@ div.modal-about-article {
         .corelle-support.caution .container ul li .caution-table td {
           color: #333;
           font-size: 13px;
-          padding: 0px 15px 0px 0;
-          line-height: 18px; }
+          padding: 20px 15px 0px 0;
+          line-height: 18px;
+          vertical-align: top; }
           .corelle-support.caution .container ul li .caution-table td span.table-title {
             font-weight: 600; }
         .corelle-support.caution .container ul li:last-child {
@@ -4241,7 +4318,18 @@ div.popup-channel {
   background: #fff;
   top: 0;
   left: 0;
-  padding: 0 20px; }
+  padding: 0 20px;
+  z-index: 11; }
+  div.popup-channel span.logo {
+    position: absolute;
+    width: 68px;
+    height: 31px;
+    background: url("../img/logo.png") 0 0 no-repeat;
+    background-size: 68px auto;
+    left: 20px;
+    top: 15px;
+    text-indent: -9999px;
+    z-index: 11; }
   div.popup-channel a.close {
     position: absolute;
     top: 22px;
@@ -4284,41 +4372,77 @@ div.popup-channel {
         left: 0;
         top: 0; }
         div.popup-channel ul li a.store1 {
-          background: url("../img/support/store_1_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_1_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store2 {
-          background: url("../img/support/store_2_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_2_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store3 {
-          background: url("../img/support/store_3_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_3_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store4 {
-          background: url("../img/support/store_4_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_4_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store5 {
-          background: url("../img/support/store_5_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_5_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store6 {
-          background: url("../img/support/store_6_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_6_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store7 {
-          background: url("../img/support/store_7_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_7_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store8 {
-          background: url("../img/support/store_8_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_8_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store9 {
-          background: url("../img/support/store_9_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_9_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store10 {
-          background: url("../img/support/store_10_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_10_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store11 {
-          background: url("../img/support/store_11_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_11_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store12 {
-          background: url("../img/support/store_12_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_12_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store13 {
-          background: url("../img/support/store_13_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_13_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store14 {
-          background: url("../img/support/store_14_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_14_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store15 {
-          background: url("../img/support/store_15_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_15_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store16 {
-          background: url("../img/support/store_16_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_16_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store17 {
-          background: url("../img/support/store_17_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_17_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
         div.popup-channel ul li a.store18 {
-          background: url("../img/support/store_18_on.png") 50% 50% no-repeat; }
+          background: url("../img/support/store_18_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
 
 div.search-area {
   width: 1620px;
@@ -4389,7 +4513,7 @@ div.search-area {
         font-weight: 600; }
 
 div.store-search {
-  position: fixed;
+  position: absolute;
   width: 290px;
   height: 100%;
   top: 0;

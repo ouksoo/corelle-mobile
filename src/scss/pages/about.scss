@@ -249,6 +249,8 @@ $f-n : 'NanumBrunGothic', serif;
 
 				div.thumb {
 					position: relative;
+					height: 200px;
+					overflow: hidden;
 
 					a.play-btn {
 						position: absolute;

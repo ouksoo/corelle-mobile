@@ -40,6 +40,11 @@ $f-n : 'NanumBrunGothic', serif;
                 border-bottom: 1px solid #cacaca;
                 background: #fff;
 
+                div.thumb {
+                    position: relative;
+                    height: 200px;
+                    overflow: hidden;
+                }
                 p.subject {
                     font-size: 15px; color: #333;
                     line-height: 22px; padding: 20px 20px 5px 20px;

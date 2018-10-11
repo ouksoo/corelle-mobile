@@ -12,13 +12,19 @@ $f-n : 'NanumBrunGothic', serif;
 		ul.company {
 			margin: 0 auto;
 			border-bottom: 10px solid rgb(243,243,243);
+			border-top: 1px solid #dcdcdc;
 
 			li {
 				position: relative;
 				float: left;
 				width: 25%;
 				height: 89px;
-				border: 1px solid #dcdcdc;
+				border-right: 1px solid #dcdcdc;
+				border-bottom: 1px solid #dcdcdc;
+
+				&:nth-child(4n) {
+					border-right: 0;
+				}
 				
 				&:last-child {
 					background: #f7f7f7;
@@ -26,7 +32,7 @@ $f-n : 'NanumBrunGothic', serif;
 
 				a {
 					position: absolute;
-					width: 101%;
+					width: 100%;
 					height: 89px;
 					text-indent: -9999px;
 					left: 0; top: 0;
@@ -36,6 +42,7 @@ $f-n : 'NanumBrunGothic', serif;
 					border: 2px solid #000;
 					// background: #fff;
 					z-index: 1;
+					margin: -1px 0 0 0px;
 				}				
 
 				&.p-1 {
@@ -147,11 +154,14 @@ $f-n : 'NanumBrunGothic', serif;
 	div.product-lists {
 
 		ul {
+			width: 333px;
+			margin: 0 auto;
 			padding-bottom: 200px;
 
 			li {
 				float: left;
-				margin: 20px 8px 0 8px;
+				width: 105px;
+				margin: 20px 3px 0 3px;
 				text-align: center;
 
 				img {
