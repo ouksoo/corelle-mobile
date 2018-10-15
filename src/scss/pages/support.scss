@@ -49,6 +49,12 @@ $f-n : 'NanumBrunGothic', serif;
 				height: 40px;
 			}
 		}
+		p.warn {
+			display: none;
+			font-size:15px;
+			color: rgb(255,0,0);
+			padding-top: 10px;
+		}
 	}
 
 	// caution
@@ -440,6 +446,16 @@ div.popup-channel {
 				}
 				&.store18 {
 					background:url('../img/support/store_18_on.png') 50% 50% no-repeat;
+					-webkit-backgrond-size: 100% auto;
+					background-size: 100% auto;
+				}
+				&.store19 {
+					background:url('../img/support/store_19_on.png') 50% 50% no-repeat;
+					-webkit-backgrond-size: 100% auto;
+					background-size: 100% auto;
+				}
+				&.store20 {
+					background:url('../img/support/store_20_on.png') 50% 50% no-repeat;
 					-webkit-backgrond-size: 100% auto;
 					background-size: 100% auto;
 				}

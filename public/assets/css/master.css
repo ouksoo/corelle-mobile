@@ -729,6 +729,20 @@ section .index .products {
       section .index .products ul.sns li img {
         width: 50px; }
 
+section .index a.go-shopping {
+  display: block;
+  line-height: 64px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  background: #686868; }
+  section .index a.go-shopping img {
+    vertical-align: middle;
+    margin-right: 9px; }
+  section .index a.go-shopping span {
+    font-family: "Karla", sans-serif; }
+
 section .index ul.sitemap li {
   float: left;
   width: 50%;
@@ -1665,7 +1679,7 @@ div.modal-about-article {
       padding: 40px 0 50px 0; }
       .corelle-brand.pyrex div.area-1 div.p-area p.sj {
         font-family: "Karla", sans-serif;
-        font-size: 30px;
+        font-size: 32px;
         line-height: 36px;
         color: #000;
         font-weight: 700;
@@ -2116,6 +2130,11 @@ div.modal-about-article {
       width: 50%;
       margin: 0;
       height: 40px; }
+    .corelle-support.asking p.warn {
+      display: none;
+      font-size: 15px;
+      color: red;
+      padding-top: 10px; }
   .corelle-support.caution div.tabsets {
     padding: 22px 50% 0px 0;
     text-align: center;
@@ -2411,6 +2430,14 @@ div.popup-channel {
           background-size: 100% auto; }
         div.popup-channel ul li a.store18 {
           background: url("../img/support/store_18_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
+        div.popup-channel ul li a.store19 {
+          background: url("../img/support/store_19_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
+        div.popup-channel ul li a.store20 {
+          background: url("../img/support/store_20_on.png") 50% 50% no-repeat;
           -webkit-backgrond-size: 100% auto;
           background-size: 100% auto; }
 
@@ -2851,6 +2878,20 @@ section .index .products {
       section .index .products ul.sns li img {
         width: 50px; }
 
+section .index a.go-shopping {
+  display: block;
+  line-height: 64px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  background: #686868; }
+  section .index a.go-shopping img {
+    vertical-align: middle;
+    margin-right: 9px; }
+  section .index a.go-shopping span {
+    font-family: "Karla", sans-serif; }
+
 section .index ul.sitemap li {
   float: left;
   width: 50%;
@@ -3787,7 +3828,7 @@ div.modal-about-article {
       padding: 40px 0 50px 0; }
       .corelle-brand.pyrex div.area-1 div.p-area p.sj {
         font-family: "Karla", sans-serif;
-        font-size: 30px;
+        font-size: 32px;
         line-height: 36px;
         color: #000;
         font-weight: 700;
@@ -4238,6 +4279,11 @@ div.modal-about-article {
       width: 50%;
       margin: 0;
       height: 40px; }
+    .corelle-support.asking p.warn {
+      display: none;
+      font-size: 15px;
+      color: red;
+      padding-top: 10px; }
   .corelle-support.caution div.tabsets {
     padding: 22px 50% 0px 0;
     text-align: center;
@@ -4533,6 +4579,14 @@ div.popup-channel {
           background-size: 100% auto; }
         div.popup-channel ul li a.store18 {
           background: url("../img/support/store_18_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
+        div.popup-channel ul li a.store19 {
+          background: url("../img/support/store_19_on.png") 50% 50% no-repeat;
+          -webkit-backgrond-size: 100% auto;
+          background-size: 100% auto; }
+        div.popup-channel ul li a.store20 {
+          background: url("../img/support/store_20_on.png") 50% 50% no-repeat;
           -webkit-backgrond-size: 100% auto;
           background-size: 100% auto; }
 

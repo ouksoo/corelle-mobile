@@ -352,6 +352,23 @@ section {
                 }
             }
         }
+        a.go-shopping {
+            display: block;
+            line-height: 64px;
+            color: #fff;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 30px;
+            background: rgb(104,104,104);
+
+            img {
+                vertical-align: middle;
+                margin-right: 9px;
+            }
+            span {
+                font-family: $f-m;
+            }
+        }
         ul.sitemap {
 
             li {

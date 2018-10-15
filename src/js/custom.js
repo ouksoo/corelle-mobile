@@ -47,7 +47,7 @@ appendContent += '            <li><a href="brand_pyrex.html">Pyrex</a></li>';
 appendContent += '            <li><a href="brand_corning.html">Corningware</a></li>';
 appendContent += '            <li><a href="brand_snapware.html">Snapware</a></li>';
 appendContent += '            <li><a href="brand_chicago.html">Chicago Cutlery</a></li>';
-appendContent += '            <li><a href="brand_vision.html">Visions</a></li>';
+appendContent += '            <li><a href="brand_visions.html">Visions</a></li>';
 appendContent += '            <li><a href="brand_cook.html">Corelle cook</a></li>';
 appendContent += '            <li><a href="brand_oxo.html">OXO</a></li>';
 appendContent += '        </ul>';
