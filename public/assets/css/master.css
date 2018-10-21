@@ -1709,6 +1709,20 @@ div.modal-about-article {
       position: relative; }
       .corelle-brand.pyrex div.area-3 div.image-area img {
         width: 100%; }
+      .corelle-brand.pyrex div.area-3 div.image-area div.center-context {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        margin-top: -32px; }
+        .corelle-brand.pyrex div.area-3 div.image-area div.center-context p.f {
+          font-size: 30px;
+          font-family: "Karla", sans-serif;
+          padding-bottom: 10px; }
+        .corelle-brand.pyrex div.area-3 div.image-area div.center-context p.s {
+          font-size: 15px; }
     .corelle-brand.pyrex div.area-3 div.p-area {
       text-align: center;
       padding: 40px 0 50px 0;
@@ -2058,16 +2072,19 @@ div.modal-about-article {
   width: 100%;
   font-family: "Karla", sans-serif; }
   .corelle-product div.tabsets a {
-    display: inline-block;
-    padding: 20px 0 15px 0;
+    float: left;
+    padding: 20px 0 0px 0;
+    height: 56px;
     width: 50%;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     color: #888;
-    border-bottom: 3px solid #fff; }
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 2px; }
     .corelle-product div.tabsets a.on {
       color: #000;
-      border-bottom: 3px solid #000; }
+      border-bottom: 3px solid #000;
+      padding-bottom: 0px; }
 
 .corelle-product div.product-lists ul {
   width: 333px;
@@ -2131,10 +2148,31 @@ div.modal-about-article {
       margin: 0;
       height: 40px; }
     .corelle-support.asking p.warn {
-      display: none;
       font-size: 15px;
       color: red;
       padding-top: 10px; }
+  .corelle-support.asking-ok {
+    height: 450px;
+    text-align: center;
+    padding-top: 120px; }
+    .corelle-support.asking-ok p.f {
+      font-size: 30px;
+      color: #000;
+      padding-bottom: 25px; }
+    .corelle-support.asking-ok p.s {
+      font-size: 16px;
+      color: #888888;
+      line-height: 25px; }
+    .corelle-support.asking-ok a.reload {
+      display: block;
+      width: 227px;
+      line-height: 34px;
+      font-size: 13px;
+      color: #000;
+      border: 1px solid #d9d9d9;
+      -webkit-border-radius: 23px;
+      border-radius: 23px;
+      margin: 25px auto 15px auto; }
   .corelle-support.caution div.tabsets {
     padding: 22px 50% 0px 0;
     text-align: center;
@@ -2142,7 +2180,7 @@ div.modal-about-article {
     overflow-x: auto;
     width: 100%; }
     .corelle-support.caution div.tabsets div {
-      width: 841px; }
+      width: 880px; }
     .corelle-support.caution div.tabsets a {
       display: inline-block;
       padding: 0 20px 15px 20px;
@@ -2151,38 +2189,49 @@ div.modal-about-article {
       color: #888;
       border-bottom: 3px solid #fff; }
       .corelle-support.caution div.tabsets a.on {
-        color: #000;
-        border-bottom: 3px solid #000; }
+        color: #000; }
+    .corelle-support.caution div.tabsets.tab-pyrex {
+      width: 100%;
+      padding: 0;
+      font-family: "NanumBrunGothic", serif;
+      border-bottom: 1px solid #dadada; }
+      .corelle-support.caution div.tabsets.tab-pyrex a {
+        float: left;
+        padding-top: 18px;
+        font-size: 13px;
+        width: 50%; }
+        .corelle-support.caution div.tabsets.tab-pyrex a.on {
+          font-weight: 700px; }
   .corelle-support.caution .container {
-    border-top: 10px solid #f3f3f3;
-    padding: 0 20px; }
+    padding: 0 0px; }
     .corelle-support.caution .container span.asset-txt {
       display: block;
       text-align: center;
       color: #333333;
       font-size: 13px;
       font-weight: 700; }
-    .corelle-support.caution .container ul {
-      padding: 10px 0 50px 0; }
-      .corelle-support.caution .container ul li {
-        border-bottom: 2px solid #cacaca; }
-        .corelle-support.caution .container ul li .caution-table th {
-          width: 104px;
-          padding: 25px 0;
-          text-align: center;
-          vertical-align: top; }
-          .corelle-support.caution .container ul li .caution-table th img {
-            margin-bottom: 10px; }
-        .corelle-support.caution .container ul li .caution-table td {
-          color: #333;
-          font-size: 13px;
-          padding: 20px 15px 0px 0;
-          line-height: 18px;
-          vertical-align: top; }
-          .corelle-support.caution .container ul li .caution-table td span.table-title {
-            font-weight: 600; }
-        .corelle-support.caution .container ul li:last-child {
-          border-bottom: 0; }
+    .corelle-support.caution .container .caution-table th {
+      width: 114px;
+      padding: 25px 0 0 0;
+      text-align: center;
+      border-bottom: 1px solid #cacaca;
+      vertical-align: top; }
+      .corelle-support.caution .container .caution-table th img {
+        margin-bottom: 10px; }
+    .corelle-support.caution .container .caution-table td {
+      color: #555555;
+      font-size: 13px;
+      padding: 23px 0px 25px 0;
+      line-height: 18px;
+      padding-right: 20px;
+      border-bottom: 1px solid #cacaca; }
+      .corelle-support.caution .container .caution-table td span.table-title {
+        display: block;
+        color: #333333;
+        font-weight: 600;
+        padding-bottom: 5px; }
+      .corelle-support.caution .container .caution-table td span.red {
+        color: #d0021b; }
   .corelle-support.faq div.tabsets {
     padding: 22px 50% 0px 0;
     text-align: center;
@@ -2200,10 +2249,13 @@ div.modal-about-article {
       border-bottom: 3px solid #fff; }
       .corelle-support.faq div.tabsets a.on {
         color: #000;
-        border-bottom: 3px solid #000; }
+        border-bottom: 3px solid #000;
+        font-weight: 600; }
+    .corelle-support.faq div.tabsets.sub-1 a {
+      font-family: "NanumBrunGothic", serif; }
   .corelle-support.faq .container {
     border-top: 10px solid #f3f3f3;
-    padding: 0 20px; }
+    padding: 0 0px; }
     .corelle-support.faq .container select.faq-category {
       width: 100%;
       text-align: center;
@@ -2214,8 +2266,7 @@ div.modal-about-article {
       -webkit-border-radius: 0px;
       text-indent: 5px; }
     .corelle-support.faq .container ul.questions {
-      margin-bottom: 24px;
-      border-top: 2px solid #d5d5d5; }
+      margin-bottom: 24px; }
       .corelle-support.faq .container ul.questions li {
         border-bottom: 2px solid #d5d5d5; }
         .corelle-support.faq .container ul.questions li a.question-link {
@@ -2223,12 +2274,12 @@ div.modal-about-article {
           font-size: 13px;
           color: #333;
           padding: 18px 0;
-          background: url("../img/support/arrow-down.png") 97% 50% no-repeat;
+          background: url("../img/support/arrow-down.png") 93% 50% no-repeat;
           -webkit-background-size: 16px auto;
           background-size: 16px auto;
           line-height: 20px; }
           .corelle-support.faq .container ul.questions li a.question-link.on {
-            background: url("../img/support/arrow-up.png") 97% 50% no-repeat;
+            background: url("../img/support/arrow-up.png") 93% 50% no-repeat;
             -webkit-background-size: 16px auto;
             background-size: 16px auto; }
           .corelle-support.faq .container ul.questions li a.question-link span.q {
@@ -2239,7 +2290,7 @@ div.modal-about-article {
             color: #333;
             font-weight: 600;
             vertical-align: middle;
-            padding: 0 15px; }
+            padding: 0 15px 0 20px; }
           .corelle-support.faq .container ul.questions li a.question-link span.qa {
             float: left;
             width: 86%;
@@ -2352,7 +2403,8 @@ div.popup-channel {
       border: 1px solid #dcdcdc;
       margin-left: -1px;
       margin-bottom: -1px;
-      background: #fff; }
+      background: #fff;
+      overflow: hidden; }
       div.popup-channel ul li a {
         position: absolute;
         width: 101%;
@@ -2360,85 +2412,91 @@ div.popup-channel {
         text-indent: -9999px;
         left: 0;
         top: 0; }
-        div.popup-channel ul li a.store1 {
-          background: url("../img/support/store_1_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.nolink {
+          cursor: default; }
+        div.popup-channel ul li a.lotte {
+          background: url("../img/support/lotte_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store2 {
-          background: url("../img/support/store_2_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.shinsegae {
+          background: url("../img/support/shinsegae_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store3 {
-          background: url("../img/support/store_3_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.hyundai {
+          background: url("../img/support/hyundai_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store4 {
-          background: url("../img/support/store_4_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.akplaza {
+          background: url("../img/support/akplaza_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store5 {
-          background: url("../img/support/store_5_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.thegalleria {
+          background: url("../img/support/thegalleria_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store6 {
-          background: url("../img/support/store_6_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.say {
+          background: url("../img/support/say_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store7 {
-          background: url("../img/support/store_7_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.emart {
+          background: url("../img/support/emart_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store8 {
-          background: url("../img/support/store_8_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.emarttraders {
+          background: url("../img/support/emarttraders_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store9 {
-          background: url("../img/support/store_9_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.homeplus {
+          background: url("../img/support/homeplus_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store10 {
-          background: url("../img/support/store_10_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.lottemart {
+          background: url("../img/support/lottemart_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store11 {
-          background: url("../img/support/store_11_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.costco {
+          background: url("../img/support/costco_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store12 {
-          background: url("../img/support/store_12_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.ssgcom {
+          background: url("../img/support/ssgcom_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store13 {
-          background: url("../img/support/store_13_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.gsshop {
+          background: url("../img/support/gsshop_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store14 {
-          background: url("../img/support/store_14_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.lottecom {
+          background: url("../img/support/lottecom_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store15 {
-          background: url("../img/support/store_15_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.hmall {
+          background: url("../img/support/hmall_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store16 {
-          background: url("../img/support/store_16_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.cjmall {
+          background: url("../img/support/cjmall_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store17 {
-          background: url("../img/support/store_17_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.lottemall {
+          background: url("../img/support/lottemall_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store18 {
-          background: url("../img/support/store_18_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.gmarket {
+          background: url("../img/support/gmarket_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store19 {
-          background: url("../img/support/store_19_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.o11st {
+          background: url("../img/support/o11st_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store20 {
-          background: url("../img/support/store_20_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.auction {
+          background: url("../img/support/auction_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
+          background-size: 100% auto; }
+        div.popup-channel ul li a.interpark {
+          background: url("../img/support/interpark_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
 
 div.search-area {
@@ -3858,6 +3916,20 @@ div.modal-about-article {
       position: relative; }
       .corelle-brand.pyrex div.area-3 div.image-area img {
         width: 100%; }
+      .corelle-brand.pyrex div.area-3 div.image-area div.center-context {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        margin-top: -32px; }
+        .corelle-brand.pyrex div.area-3 div.image-area div.center-context p.f {
+          font-size: 30px;
+          font-family: "Karla", sans-serif;
+          padding-bottom: 10px; }
+        .corelle-brand.pyrex div.area-3 div.image-area div.center-context p.s {
+          font-size: 15px; }
     .corelle-brand.pyrex div.area-3 div.p-area {
       text-align: center;
       padding: 40px 0 50px 0;
@@ -4207,16 +4279,19 @@ div.modal-about-article {
   width: 100%;
   font-family: "Karla", sans-serif; }
   .corelle-product div.tabsets a {
-    display: inline-block;
-    padding: 20px 0 15px 0;
+    float: left;
+    padding: 20px 0 0px 0;
+    height: 56px;
     width: 50%;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     color: #888;
-    border-bottom: 3px solid #fff; }
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 2px; }
     .corelle-product div.tabsets a.on {
       color: #000;
-      border-bottom: 3px solid #000; }
+      border-bottom: 3px solid #000;
+      padding-bottom: 0px; }
 
 .corelle-product div.product-lists ul {
   width: 333px;
@@ -4280,10 +4355,31 @@ div.modal-about-article {
       margin: 0;
       height: 40px; }
     .corelle-support.asking p.warn {
-      display: none;
       font-size: 15px;
       color: red;
       padding-top: 10px; }
+  .corelle-support.asking-ok {
+    height: 450px;
+    text-align: center;
+    padding-top: 120px; }
+    .corelle-support.asking-ok p.f {
+      font-size: 30px;
+      color: #000;
+      padding-bottom: 25px; }
+    .corelle-support.asking-ok p.s {
+      font-size: 16px;
+      color: #888888;
+      line-height: 25px; }
+    .corelle-support.asking-ok a.reload {
+      display: block;
+      width: 227px;
+      line-height: 34px;
+      font-size: 13px;
+      color: #000;
+      border: 1px solid #d9d9d9;
+      -webkit-border-radius: 23px;
+      border-radius: 23px;
+      margin: 25px auto 15px auto; }
   .corelle-support.caution div.tabsets {
     padding: 22px 50% 0px 0;
     text-align: center;
@@ -4291,7 +4387,7 @@ div.modal-about-article {
     overflow-x: auto;
     width: 100%; }
     .corelle-support.caution div.tabsets div {
-      width: 841px; }
+      width: 880px; }
     .corelle-support.caution div.tabsets a {
       display: inline-block;
       padding: 0 20px 15px 20px;
@@ -4300,38 +4396,49 @@ div.modal-about-article {
       color: #888;
       border-bottom: 3px solid #fff; }
       .corelle-support.caution div.tabsets a.on {
-        color: #000;
-        border-bottom: 3px solid #000; }
+        color: #000; }
+    .corelle-support.caution div.tabsets.tab-pyrex {
+      width: 100%;
+      padding: 0;
+      font-family: "NanumBrunGothic", serif;
+      border-bottom: 1px solid #dadada; }
+      .corelle-support.caution div.tabsets.tab-pyrex a {
+        float: left;
+        padding-top: 18px;
+        font-size: 13px;
+        width: 50%; }
+        .corelle-support.caution div.tabsets.tab-pyrex a.on {
+          font-weight: 700px; }
   .corelle-support.caution .container {
-    border-top: 10px solid #f3f3f3;
-    padding: 0 20px; }
+    padding: 0 0px; }
     .corelle-support.caution .container span.asset-txt {
       display: block;
       text-align: center;
       color: #333333;
       font-size: 13px;
       font-weight: 700; }
-    .corelle-support.caution .container ul {
-      padding: 10px 0 50px 0; }
-      .corelle-support.caution .container ul li {
-        border-bottom: 2px solid #cacaca; }
-        .corelle-support.caution .container ul li .caution-table th {
-          width: 104px;
-          padding: 25px 0;
-          text-align: center;
-          vertical-align: top; }
-          .corelle-support.caution .container ul li .caution-table th img {
-            margin-bottom: 10px; }
-        .corelle-support.caution .container ul li .caution-table td {
-          color: #333;
-          font-size: 13px;
-          padding: 20px 15px 0px 0;
-          line-height: 18px;
-          vertical-align: top; }
-          .corelle-support.caution .container ul li .caution-table td span.table-title {
-            font-weight: 600; }
-        .corelle-support.caution .container ul li:last-child {
-          border-bottom: 0; }
+    .corelle-support.caution .container .caution-table th {
+      width: 114px;
+      padding: 25px 0 0 0;
+      text-align: center;
+      border-bottom: 1px solid #cacaca;
+      vertical-align: top; }
+      .corelle-support.caution .container .caution-table th img {
+        margin-bottom: 10px; }
+    .corelle-support.caution .container .caution-table td {
+      color: #555555;
+      font-size: 13px;
+      padding: 23px 0px 25px 0;
+      line-height: 18px;
+      padding-right: 20px;
+      border-bottom: 1px solid #cacaca; }
+      .corelle-support.caution .container .caution-table td span.table-title {
+        display: block;
+        color: #333333;
+        font-weight: 600;
+        padding-bottom: 5px; }
+      .corelle-support.caution .container .caution-table td span.red {
+        color: #d0021b; }
   .corelle-support.faq div.tabsets {
     padding: 22px 50% 0px 0;
     text-align: center;
@@ -4349,10 +4456,13 @@ div.modal-about-article {
       border-bottom: 3px solid #fff; }
       .corelle-support.faq div.tabsets a.on {
         color: #000;
-        border-bottom: 3px solid #000; }
+        border-bottom: 3px solid #000;
+        font-weight: 600; }
+    .corelle-support.faq div.tabsets.sub-1 a {
+      font-family: "NanumBrunGothic", serif; }
   .corelle-support.faq .container {
     border-top: 10px solid #f3f3f3;
-    padding: 0 20px; }
+    padding: 0 0px; }
     .corelle-support.faq .container select.faq-category {
       width: 100%;
       text-align: center;
@@ -4363,8 +4473,7 @@ div.modal-about-article {
       -webkit-border-radius: 0px;
       text-indent: 5px; }
     .corelle-support.faq .container ul.questions {
-      margin-bottom: 24px;
-      border-top: 2px solid #d5d5d5; }
+      margin-bottom: 24px; }
       .corelle-support.faq .container ul.questions li {
         border-bottom: 2px solid #d5d5d5; }
         .corelle-support.faq .container ul.questions li a.question-link {
@@ -4372,12 +4481,12 @@ div.modal-about-article {
           font-size: 13px;
           color: #333;
           padding: 18px 0;
-          background: url("../img/support/arrow-down.png") 97% 50% no-repeat;
+          background: url("../img/support/arrow-down.png") 93% 50% no-repeat;
           -webkit-background-size: 16px auto;
           background-size: 16px auto;
           line-height: 20px; }
           .corelle-support.faq .container ul.questions li a.question-link.on {
-            background: url("../img/support/arrow-up.png") 97% 50% no-repeat;
+            background: url("../img/support/arrow-up.png") 93% 50% no-repeat;
             -webkit-background-size: 16px auto;
             background-size: 16px auto; }
           .corelle-support.faq .container ul.questions li a.question-link span.q {
@@ -4388,7 +4497,7 @@ div.modal-about-article {
             color: #333;
             font-weight: 600;
             vertical-align: middle;
-            padding: 0 15px; }
+            padding: 0 15px 0 20px; }
           .corelle-support.faq .container ul.questions li a.question-link span.qa {
             float: left;
             width: 86%;
@@ -4501,7 +4610,8 @@ div.popup-channel {
       border: 1px solid #dcdcdc;
       margin-left: -1px;
       margin-bottom: -1px;
-      background: #fff; }
+      background: #fff;
+      overflow: hidden; }
       div.popup-channel ul li a {
         position: absolute;
         width: 101%;
@@ -4509,85 +4619,91 @@ div.popup-channel {
         text-indent: -9999px;
         left: 0;
         top: 0; }
-        div.popup-channel ul li a.store1 {
-          background: url("../img/support/store_1_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.nolink {
+          cursor: default; }
+        div.popup-channel ul li a.lotte {
+          background: url("../img/support/lotte_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store2 {
-          background: url("../img/support/store_2_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.shinsegae {
+          background: url("../img/support/shinsegae_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store3 {
-          background: url("../img/support/store_3_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.hyundai {
+          background: url("../img/support/hyundai_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store4 {
-          background: url("../img/support/store_4_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.akplaza {
+          background: url("../img/support/akplaza_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store5 {
-          background: url("../img/support/store_5_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.thegalleria {
+          background: url("../img/support/thegalleria_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store6 {
-          background: url("../img/support/store_6_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.say {
+          background: url("../img/support/say_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store7 {
-          background: url("../img/support/store_7_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.emart {
+          background: url("../img/support/emart_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store8 {
-          background: url("../img/support/store_8_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.emarttraders {
+          background: url("../img/support/emarttraders_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store9 {
-          background: url("../img/support/store_9_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.homeplus {
+          background: url("../img/support/homeplus_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store10 {
-          background: url("../img/support/store_10_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.lottemart {
+          background: url("../img/support/lottemart_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store11 {
-          background: url("../img/support/store_11_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.costco {
+          background: url("../img/support/costco_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store12 {
-          background: url("../img/support/store_12_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.ssgcom {
+          background: url("../img/support/ssgcom_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store13 {
-          background: url("../img/support/store_13_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.gsshop {
+          background: url("../img/support/gsshop_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store14 {
-          background: url("../img/support/store_14_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.lottecom {
+          background: url("../img/support/lottecom_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store15 {
-          background: url("../img/support/store_15_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.hmall {
+          background: url("../img/support/hmall_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store16 {
-          background: url("../img/support/store_16_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.cjmall {
+          background: url("../img/support/cjmall_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store17 {
-          background: url("../img/support/store_17_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.lottemall {
+          background: url("../img/support/lottemall_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store18 {
-          background: url("../img/support/store_18_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.gmarket {
+          background: url("../img/support/gmarket_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store19 {
-          background: url("../img/support/store_19_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.o11st {
+          background: url("../img/support/o11st_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
-        div.popup-channel ul li a.store20 {
-          background: url("../img/support/store_20_on.png") 50% 50% no-repeat;
-          -webkit-backgrond-size: 100% auto;
+        div.popup-channel ul li a.auction {
+          background: url("../img/support/auction_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
+          background-size: 100% auto; }
+        div.popup-channel ul li a.interpark {
+          background: url("../img/support/interpark_on.png") 0 0 no-repeat;
+          -webkit-background-size: 100% auto;
           background-size: 100% auto; }
 
 div.search-area {

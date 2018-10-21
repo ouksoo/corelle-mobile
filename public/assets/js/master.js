@@ -39,9 +39,9 @@ appendContent += '    <a href="#" class="close-modal"></a>';
 appendContent += '    <span class="depth-1">About Us</span>';
 appendContent += '    <div class="inner">';
 appendContent += '        <ul id="menu-about" class="clearfix navi" style="display:none">';
-appendContent += '            <li><a href="about_history.html">코렐 브랜드 소개/역사</a></li>';
-appendContent += '            <li><a href="about_contact.html">회사위치 및 정보</a></li>';
-appendContent += '            <li><a href="about_video.html">홍보영상 및 보도자료</a></li>';
+appendContent += '            <li><a href="about_history.html">코렐 브랜드 소개</a></li>';
+appendContent += '            <li><a href="about_contact.html">회사 INFO</a></li>';
+appendContent += '            <li><a href="about_video.html">홍보자료</a></li>';
 appendContent += '        </ul>';
 appendContent += '        <ul id="menu-brand" class="clearfix navi" style="display:none">';
 appendContent += '            <li><a href="brand_corelle.html">Corelle</a></li>';
@@ -100,6 +100,7 @@ var CORE = {
         this.menuStart();
         this.frequentlyAskedQuestions();
         this.naviHeightFix();
+        this.cautionTabset();
     },
     // GNB indicator
     menuStart: function menuStart() {
@@ -190,6 +191,13 @@ var CORE = {
 
     // FAQ
     frequentlyAskedQuestions: function frequentlyAskedQuestions() {
+        $('.faq .tabsets a').on('click', function () {
+            var thisTab = $(this).data('tabContent');
+
+            $('.faq .container ul.questions').css('display', 'none');
+            $('.faq-content-' + thisTab).css('display', 'block');
+        });
+
         $('.questions a.question-link').on('click', function (e) {
             e.preventDefault();
             if (!$(this).hasClass('on')) {
@@ -216,6 +224,22 @@ var CORE = {
         var wrapper = $(window).height();
         var margintp = wrapper - 122; // 122 depth menu header's heihgt
         $('div.depthmenu div.inner').css('height', margintp);
+    },
+
+    // support_caution.html tabs
+    cautionTabset: function cautionTabset() {
+        $('.caution .tabsets a').on('click', function () {
+            var thisTab = $(this).data('tabContent');
+
+            if (thisTab == '2-1' || thisTab == '2-2' || thisTab == '2-3') {
+                $('.tab-pyrex').css('display', 'block');
+            } else {
+                $('.tab-pyrex').css('display', 'none');
+            }
+
+            $('.caution .container table').css('display', 'none');
+            $('.caution-content-' + thisTab).css('display', 'block');
+        });
     }
 
     // after loaded execute

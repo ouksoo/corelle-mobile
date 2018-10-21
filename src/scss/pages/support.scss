@@ -50,10 +50,39 @@ $f-n : 'NanumBrunGothic', serif;
 			}
 		}
 		p.warn {
-			display: none;
+			// display: none;
 			font-size:15px;
 			color: rgb(255,0,0);
 			padding-top: 10px;
+		}
+	}
+
+	// asking ok
+	&.asking-ok {
+		height: 450px;
+		text-align: center;
+		padding-top: 120px;
+	
+		p.f {
+			font-size: 30px;
+			color: #000;
+			padding-bottom: 25px;
+		}
+		p.s {
+			font-size: 16px;
+			color: rgb(136,136,136);
+			line-height: 25px;
+		}
+		a.reload {
+			display: block;
+			width: 227px;
+			line-height: 34px;
+			font-size: 13px;
+			color: #000;
+			border: 1px solid rgb(217,217,217);
+			-webkit-border-radius: 23px;
+			border-radius: 23px;
+			margin: 25px auto 15px auto;
 		}
 	}
 
@@ -68,7 +97,7 @@ $f-n : 'NanumBrunGothic', serif;
 			width: 100%;
 
 			div {
-				width: 841px;
+				width: 880px;
 			}
 
             a {
@@ -81,14 +110,28 @@ $f-n : 'NanumBrunGothic', serif;
 
                 &.on {
 					color: #000;
-                    border-bottom: 3px solid #000;
                 }
-            }
+			}
+			&.tab-pyrex {
+				width: 100%; padding: 0;
+				font-family: $f-n;
+				border-bottom: 1px solid #dadada;
+
+				a {
+					float: left;
+					padding-top: 18px;
+					font-size: 13px;
+					width: 50%;
+
+					&.on {
+						font-weight: 700px;
+					}
+				}
+			}
 		}
 
 		.container {
-			border-top: 10px solid rgb(243,243,243);
-			padding: 0 20px;
+			padding: 0 0px;
 
 			span.asset-txt {
 				display: block;
@@ -98,40 +141,71 @@ $f-n : 'NanumBrunGothic', serif;
 				font-weight: 700;
 			}
 
-			ul {
-				padding: 10px 0 50px 0;
-
-				li {
-					border-bottom: 2px solid rgb(202,202,202);
-
-					.caution-table th {
-						width: 104px;
-						padding: 25px 0;
-						text-align: center;
-						vertical-align: top;
-			
-						img {
-							margin-bottom: 10px;
-						}
-					}
-					.caution-table td {
-						color: #333;
-						font-size: 13px; padding: 20px 15px 0px 0;
-						line-height: 18px;
-						vertical-align: top;
-						
-						span.table-title {
-							font-weight: 600;				
-						}
-						p.table-content {
-			
-						}
-					}
-					&:last-child {
-						border-bottom: 0;
-					}
+			.caution-table th {
+				width: 114px;
+				padding: 25px 0 0 0;
+				text-align: center;
+				border-bottom: 1px solid #cacaca;
+				vertical-align: top;
+	
+				img {
+					margin-bottom: 10px;
 				}
 			}
+			.caution-table td {
+				color: rgb(85,85,85);
+				font-size: 13px; padding: 23px 0px 25px 0;
+				line-height: 18px;
+				padding-right: 20px;
+				border-bottom: 1px solid #cacaca;
+	
+				span.table-title {
+					display: block;
+					color: rgb(51,51,51);
+					font-weight: 600;		
+					padding-bottom: 5px;		
+				}
+				p.table-content {
+	
+				}
+				span.red {
+					color: #d0021b;
+				}
+			}
+			// ul {
+			// 	padding: 10px 0 50px 0;
+
+			// 	li {
+			// 		border-bottom: 2px solid rgb(202,202,202);
+
+			// 		.caution-table th {
+			// 			width: 104px;
+			// 			padding: 25px 0;
+			// 			text-align: center;
+			// 			vertical-align: top;
+			
+			// 			img {
+			// 				margin-bottom: 10px;
+			// 			}
+			// 		}
+			// 		.caution-table td {
+			// 			color: #333;
+			// 			font-size: 13px; padding: 20px 15px 0px 0;
+			// 			line-height: 18px;
+			// 			vertical-align: top;
+						
+			// 			span.table-title {
+			// 				font-weight: 600;				
+			// 			}
+			// 			p.table-content {
+			
+			// 			}
+			// 		}
+			// 		&:last-child {
+			// 			border-bottom: 0;
+			// 		}
+			// 	}
+			// }
 		}
 	}
 
@@ -160,14 +234,20 @@ $f-n : 'NanumBrunGothic', serif;
                 &.on {
 					color: #000;
 					// font-weight: 700;
-                    border-bottom: 3px solid #000;
+					border-bottom: 3px solid #000;
+					font-weight: 600;
                 }
-            }
+			}
+			&.sub-1 {
+				a {
+					font-family: $f-n;
+				}
+			}
 		}
 
 		.container {
 			border-top: 10px solid rgb(243,243,243);
-			padding: 0 20px;
+			padding: 0 0px;
 
 			select.faq-category {
 				width: 100%;
@@ -182,7 +262,7 @@ $f-n : 'NanumBrunGothic', serif;
 
 			ul.questions {
 				margin-bottom: 24px;
-				border-top: 2px solid #d5d5d5;
+				// border-top: 2px solid #d5d5d5;
 	
 				li {
 					border-bottom: 2px solid #d5d5d5;
@@ -191,13 +271,13 @@ $f-n : 'NanumBrunGothic', serif;
 						display: block;
 						font-size: 13px; color: #333;
 						padding: 18px 0;
-						background:url('../img/support/arrow-down.png') 97% 50% no-repeat;
+						background:url('../img/support/arrow-down.png') 93% 50% no-repeat;
 						-webkit-background-size: 16px auto;
 						background-size: 16px auto;
 						line-height: 20px;
 	
 						&.on {
-							background:url('../img/support/arrow-up.png') 97% 50% no-repeat;
+							background:url('../img/support/arrow-up.png') 93% 50% no-repeat;
 							-webkit-background-size: 16px auto;
 							background-size: 16px auto;
 						}
@@ -208,7 +288,7 @@ $f-n : 'NanumBrunGothic', serif;
 							font-size: 23px; color: #333;
 							font-weight: 600;
 							vertical-align: middle;
-							padding: 0 15px;
+							padding: 0 15px 0 20px;
 						}
 						span.qa {
 							float: left;
@@ -351,6 +431,7 @@ div.popup-channel {
 			margin-left: -1px;
 			margin-bottom: -1px;
 			background: #fff;
+			overflow: hidden;
 
 			a {
 				position: absolute;
@@ -359,104 +440,113 @@ div.popup-channel {
 				text-indent: -9999px;
 				left: 0; top: 0;
 				
-				&.store1 {
-					background:url('../img/support/store_1_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.nolink {
+					cursor: default;
+				}
+
+				&.lotte {
+					background:url('../img/support/lotte_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store2 {
-					background:url('../img/support/store_2_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.shinsegae {
+					background:url('../img/support/shinsegae_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store3 {
-					background:url('../img/support/store_3_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.hyundai {
+					background:url('../img/support/hyundai_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store4 {
-					background:url('../img/support/store_4_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.akplaza {
+					background:url('../img/support/akplaza_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store5 {
-					background:url('../img/support/store_5_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.thegalleria {
+					background:url('../img/support/thegalleria_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store6 {
-					background:url('../img/support/store_6_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.say {
+					background:url('../img/support/say_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store7 {
-					background:url('../img/support/store_7_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.emart {
+					background:url('../img/support/emart_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store8 {
-					background:url('../img/support/store_8_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.emarttraders {
+					background:url('../img/support/emarttraders_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store9 {
-					background:url('../img/support/store_9_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.homeplus {
+					background:url('../img/support/homeplus_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store10 {
-					background:url('../img/support/store_10_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.lottemart {
+					background:url('../img/support/lottemart_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store11 {
-					background:url('../img/support/store_11_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.costco {
+					background:url('../img/support/costco_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store12 {
-					background:url('../img/support/store_12_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.ssgcom {
+					background:url('../img/support/ssgcom_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store13 {
-					background:url('../img/support/store_13_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.gsshop {
+					background:url('../img/support/gsshop_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store14 {
-					background:url('../img/support/store_14_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.lottecom {
+					background:url('../img/support/lottecom_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store15 {
-					background:url('../img/support/store_15_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.hmall {
+					background:url('../img/support/hmall_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store16 {
-					background:url('../img/support/store_16_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.cjmall {
+					background:url('../img/support/cjmall_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store17 {
-					background:url('../img/support/store_17_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.lottemall {
+					background:url('../img/support/lottemall_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store18 {
-					background:url('../img/support/store_18_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.gmarket {
+					background:url('../img/support/gmarket_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store19 {
-					background:url('../img/support/store_19_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.o11st {
+					background:url('../img/support/o11st_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
-				&.store20 {
-					background:url('../img/support/store_20_on.png') 50% 50% no-repeat;
-					-webkit-backgrond-size: 100% auto;
+				&.auction {
+					background:url('../img/support/auction_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
+					background-size: 100% auto;
+				}
+				&.interpark {
+					background:url('../img/support/interpark_on.png') 0 0 no-repeat;
+					-webkit-background-size: 100% auto;
 					background-size: 100% auto;
 				}
 

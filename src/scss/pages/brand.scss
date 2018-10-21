@@ -389,6 +389,24 @@ $f-n : 'NanumBrunGothic', serif;
 				img {
 					width: 100%;
 				}
+				div.center-context {
+					position: absolute;
+					width: 100%;
+					top: 50%;
+					text-align: center;
+					color: #fff;
+					font-weight: 700;
+					margin-top: -32px;
+
+					p.f {
+						font-size: 30px; 
+						font-family: $f-m;
+						padding-bottom: 10px;
+					}
+					p.s {
+						font-size: 15px;
+					}
+				}
 			}
 			div.p-area {
 				text-align: center;
