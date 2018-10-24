@@ -142,6 +142,82 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
   -webkit-appearance: none;
   margin: 0; }
 
+.board-default {
+  /* link */
+  /* image */
+  /* define */
+  /* sentence */
+  /* list */
+  /* area */
+  /* form */
+  /* table */
+  /* h */ }
+  .board-default summary {
+    display: inherit; }
+  .board-default a:link {
+    text-decoration: inherit; }
+  .board-default a:visited {
+    text-decoration: inherit; }
+  .board-default a:active {
+    text-decoration: inherit; }
+  .board-default img {
+    border: inherit;
+    vertical-align: top; }
+  .board-default dl, .board-default dt, .board-default dd {
+    margin: inherit;
+    padding: inherit; }
+  .board-default div, .board-default h2 {
+    padding: inherit;
+    margin: inherit; }
+  .board-default p {
+    margin: inherit;
+    padding: inherit; }
+  .board-default ul {
+    list-style-type: inherit;
+    margin: inherit;
+    padding: inherit; }
+  .board-default ol {
+    padding-left: inherit; }
+  .board-default hr {
+    display: inherit; }
+  .board-default form {
+    margin: inherit;
+    padding: inherit; }
+  .board-default form label, .board-default label {
+    height: inherit;
+    color: inherit;
+    cursor: inherit;
+    font-size: inherit; }
+  .board-default select {
+    font-size: inherit;
+    background: inherit;
+    vertical-align: inherit;
+    height: inherit;
+    letter-spacing: inherit; }
+  .board-default legend {
+    display: inherit; }
+  .board-default fieldset {
+    margin: inherit;
+    padding: inherit;
+    border: inherit; }
+  .board-default table {
+    margin: inherit;
+    padding: inherit;
+    border-spacing: inherit; }
+  .board-default td {
+    margin: inherit;
+    padding: inherit;
+    font-size: inherit;
+    color: inherit; }
+  .board-default th {
+    font-weight: inherit; }
+  .board-default h1, .board-default h2, .board-default h3, .board-default h4, .board-default h5, .board-default h6, .board-default h7 {
+    margin: inherit;
+    padding: inherit;
+    font-weight: inherit; }
+  .board-default strong, .board-default b {
+    font-weight: bold; }
+
 /* margin */
 .mgt-0 {
   margin-top: 0px !important; }
@@ -329,7 +405,7 @@ ul.bxslider {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: 30px;
+  bottom: 140px;
   width: 100%; }
 
 /* PAGER */
@@ -831,7 +907,7 @@ footer {
         font-family: 'Montserrat', serif;
         font-size: 15px;
         font-weight: 600;
-        color: #000; }
+        color: #333 !important; }
     footer .copyright div.phone-time {
       padding: 20px 0 50px 0;
       background: #0a3f54; }
@@ -844,9 +920,25 @@ footer {
     footer .copyright a, footer .copyright p {
       color: #ccc; }
 
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity; }
+
 /********************** 
 * globals
 ***********************/
+a[href^=tel] {
+  color: #333 !important; }
+
 *:focus {
   outline: none; }
 
@@ -1145,9 +1237,9 @@ div.popup-term {
       padding: 0 24px; }
       .corelle-about.history div.area-2 div.p-history td {
         width: 50%;
-        border-left: 1px solid #888888;
         padding-left: 15px;
-        vertical-align: top; }
+        vertical-align: top;
+        background: url("../img/dot_888.png") 0 0 repeat-y; }
         .corelle-about.history div.area-2 div.p-history td span.sub-tit {
           font-family: "Karla", sans-serif;
           font-size: 14px;
@@ -2069,6 +2161,7 @@ div.modal-about-article {
 .corelle-product div.tabsets {
   text-align: center;
   overflow-x: auto;
+  overflow-y: hidden;
   width: 100%;
   font-family: "Karla", sans-serif; }
   .corelle-product div.tabsets a {
@@ -2268,7 +2361,7 @@ div.modal-about-article {
     .corelle-support.faq .container ul.questions {
       margin-bottom: 24px; }
       .corelle-support.faq .container ul.questions li {
-        border-bottom: 2px solid #d5d5d5; }
+        border-bottom: 1px solid #d5d5d5; }
         .corelle-support.faq .container ul.questions li a.question-link {
           display: block;
           font-size: 13px;
@@ -2317,15 +2410,14 @@ div.modal-about-article {
     overflow-x: auto;
     width: 100%; }
     .corelle-support.store div.tabsets div {
-      width: 800px; }
+      width: 585px; }
     .corelle-support.store div.tabsets a {
       display: inline-block;
-      width: 100px;
       font-size: 16px;
       text-align: center;
       color: #888;
       border-bottom: 3px solid #fff;
-      padding-bottom: 15px; }
+      padding: 0 15px 15px 15px; }
       .corelle-support.store div.tabsets a.on {
         color: #000;
         border-bottom: 3px solid #000; }
@@ -3038,7 +3130,7 @@ footer {
         font-family: 'Montserrat', serif;
         font-size: 15px;
         font-weight: 600;
-        color: #000; }
+        color: #333 !important; }
     footer .copyright div.phone-time {
       padding: 20px 0 50px 0;
       background: #0a3f54; }
@@ -3051,9 +3143,25 @@ footer {
     footer .copyright a, footer .copyright p {
       color: #ccc; }
 
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity; }
+
 /********************** 
 * globals
 ***********************/
+a[href^=tel] {
+  color: #333 !important; }
+
 *:focus {
   outline: none; }
 
@@ -3352,9 +3460,9 @@ div.popup-term {
       padding: 0 24px; }
       .corelle-about.history div.area-2 div.p-history td {
         width: 50%;
-        border-left: 1px solid #888888;
         padding-left: 15px;
-        vertical-align: top; }
+        vertical-align: top;
+        background: url("../img/dot_888.png") 0 0 repeat-y; }
         .corelle-about.history div.area-2 div.p-history td span.sub-tit {
           font-family: "Karla", sans-serif;
           font-size: 14px;
@@ -4276,6 +4384,7 @@ div.modal-about-article {
 .corelle-product div.tabsets {
   text-align: center;
   overflow-x: auto;
+  overflow-y: hidden;
   width: 100%;
   font-family: "Karla", sans-serif; }
   .corelle-product div.tabsets a {
@@ -4475,7 +4584,7 @@ div.modal-about-article {
     .corelle-support.faq .container ul.questions {
       margin-bottom: 24px; }
       .corelle-support.faq .container ul.questions li {
-        border-bottom: 2px solid #d5d5d5; }
+        border-bottom: 1px solid #d5d5d5; }
         .corelle-support.faq .container ul.questions li a.question-link {
           display: block;
           font-size: 13px;
@@ -4524,15 +4633,14 @@ div.modal-about-article {
     overflow-x: auto;
     width: 100%; }
     .corelle-support.store div.tabsets div {
-      width: 800px; }
+      width: 585px; }
     .corelle-support.store div.tabsets a {
       display: inline-block;
-      width: 100px;
       font-size: 16px;
       text-align: center;
       color: #888;
       border-bottom: 3px solid #fff;
-      padding-bottom: 15px; }
+      padding: 0 15px 15px 15px; }
       .corelle-support.store div.tabsets a.on {
         color: #000;
         border-bottom: 3px solid #000; }

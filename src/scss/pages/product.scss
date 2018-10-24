@@ -132,6 +132,7 @@ $f-n : 'NanumBrunGothic', serif;
 	div.tabsets {
 		text-align: center;
 		overflow-x: auto;
+		overflow-y: hidden;
 		width: 100%;
 		font-family: $f-m;
 

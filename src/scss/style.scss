@@ -468,7 +468,7 @@ footer {
                 padding: 4px 0; font-size: 14px; color: rgb(136,136,136);
             }
             span.s {
-                font-family: 'Montserrat', serif; font-size: 15px; font-weight: 600; color: #000;
+                font-family: 'Montserrat', serif; font-size: 15px; font-weight: 600; color: #333 !important;
             }            
         }
         div.phone-time {
@@ -490,11 +490,29 @@ footer {
     }
 }
 
+video { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
 
 /********************** 
 * globals
 ***********************/
 //input focus remove outline
+a[href^=tel] {
+    color: #333 !important;
+}
+
 *:focus {
     outline: none;
 }

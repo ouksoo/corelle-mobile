@@ -203,9 +203,14 @@ var CORE = {
             if (!$(this).hasClass('on')) {
                 $('.questions div.answer').slideUp(300);
             }
-            $('.questions a.question-link').removeClass('on');
-            $(this).addClass('on');
-            $(this).next('.answer').slideDown(300);
+            if ($(this).hasClass('on')) {
+                $('.questions div.answer').slideUp(300);
+                $('.questions a.question-link').removeClass('on');
+            } else {
+                $('.questions a.question-link').removeClass('on');
+                $(this).addClass('on');
+                $(this).next('.answer').slideDown(300);
+            }
         });
     },
 

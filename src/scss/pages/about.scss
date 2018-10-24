@@ -87,9 +87,10 @@ $f-n : 'NanumBrunGothic', serif;
 
 				td {
 					width: 50%;
-					border-left: 1px solid rgb(136,136,136);
+					// border-left: 1px solid rgb(136,136,136);
 					padding-left: 15px;
 					vertical-align:top;
+					background: url('../img/dot_888.png') 0 0 repeat-y;
 
 					span.sub-tit {
 						font-family: $f-m;
