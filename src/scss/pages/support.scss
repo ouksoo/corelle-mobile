@@ -113,13 +113,13 @@ $f-n : 'NanumBrunGothic', serif;
                 }
 			}
 			&.tab-pyrex {
-				width: 100%; padding: 0;
+				width: 100%; padding: 0; height: 119px; overflow: hidden;
 				font-family: $f-n;
 				border-bottom: 1px solid #dadada;
 
 				a {
 					float: left;
-					padding-top: 18px;
+					padding: 18px 10px 15px 10px;
 					font-size: 13px;
 					width: 50%;
 

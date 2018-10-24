@@ -2286,11 +2286,13 @@ div.modal-about-article {
     .corelle-support.caution div.tabsets.tab-pyrex {
       width: 100%;
       padding: 0;
+      height: 119px;
+      overflow: hidden;
       font-family: "NanumBrunGothic", serif;
       border-bottom: 1px solid #dadada; }
       .corelle-support.caution div.tabsets.tab-pyrex a {
         float: left;
-        padding-top: 18px;
+        padding: 18px 10px 15px 10px;
         font-size: 13px;
         width: 50%; }
         .corelle-support.caution div.tabsets.tab-pyrex a.on {
@@ -4509,11 +4511,13 @@ div.modal-about-article {
     .corelle-support.caution div.tabsets.tab-pyrex {
       width: 100%;
       padding: 0;
+      height: 119px;
+      overflow: hidden;
       font-family: "NanumBrunGothic", serif;
       border-bottom: 1px solid #dadada; }
       .corelle-support.caution div.tabsets.tab-pyrex a {
         float: left;
-        padding-top: 18px;
+        padding: 18px 10px 15px 10px;
         font-size: 13px;
         width: 50%; }
         .corelle-support.caution div.tabsets.tab-pyrex a.on {
