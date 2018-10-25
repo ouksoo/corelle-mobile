@@ -2180,13 +2180,13 @@ div.modal-about-article {
       padding-bottom: 0px; }
 
 .corelle-product div.product-lists ul {
-  width: 333px;
+  width: 345px;
   margin: 0 auto;
   padding-bottom: 200px; }
   .corelle-product div.product-lists ul li {
     float: left;
     width: 105px;
-    margin: 20px 3px 0 3px;
+    margin: 20px 5px 0 5px;
     text-align: center; }
     .corelle-product div.product-lists ul li img {
       width: 105px;
@@ -2195,13 +2195,13 @@ div.modal-about-article {
       width: 105px;
       padding-top: 6px;
       font-family: "Karla", sans-serif;
-      font-weight: 700;
-      font-size: 14px;
+      font-size: 13px;
       line-height: 18px;
       height: 50px;
       word-break: break-all; }
       .corelle-product div.product-lists ul li p span {
         display: block;
+        font-size: 12px;
         width: 105px;
         font-weight: normal; }
 
@@ -4405,13 +4405,13 @@ div.modal-about-article {
       padding-bottom: 0px; }
 
 .corelle-product div.product-lists ul {
-  width: 333px;
+  width: 345px;
   margin: 0 auto;
   padding-bottom: 200px; }
   .corelle-product div.product-lists ul li {
     float: left;
     width: 105px;
-    margin: 20px 3px 0 3px;
+    margin: 20px 5px 0 5px;
     text-align: center; }
     .corelle-product div.product-lists ul li img {
       width: 105px;
@@ -4420,13 +4420,13 @@ div.modal-about-article {
       width: 105px;
       padding-top: 6px;
       font-family: "Karla", sans-serif;
-      font-weight: 700;
-      font-size: 14px;
+      font-size: 13px;
       line-height: 18px;
       height: 50px;
       word-break: break-all; }
       .corelle-product div.product-lists ul li p span {
         display: block;
+        font-size: 12px;
         width: 105px;
         font-weight: normal; }
 

@@ -158,14 +158,14 @@ $f-n : 'NanumBrunGothic', serif;
 	div.product-lists {
 
 		ul {
-			width: 333px;
+			width: 345px;
 			margin: 0 auto;
 			padding-bottom: 200px;
 
 			li {
 				float: left;
 				width: 105px;
-				margin: 20px 3px 0 3px;
+				margin: 20px 5px 0 5px;
 				text-align: center;
 
 				img {
@@ -175,14 +175,15 @@ $f-n : 'NanumBrunGothic', serif;
 					width: 105px;
 					padding-top: 6px;
 					font-family: $f-m;
-					font-weight: 700;
-					font-size: 14px;
+					// font-weight: 700;
+					font-size: 13px;
 					line-height: 18px;
 					height: 50px;
 					word-break: break-all;
 
 					span {
 						display: block;
+						font-size: 12px;
 						width: 105px;
 						font-weight: normal;	
 					}
